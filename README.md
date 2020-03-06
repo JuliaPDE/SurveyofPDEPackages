@@ -4,9 +4,14 @@ State of the ecosystem as of: 03/05/2020
 
 ## Table of contents
 
+- [General PDE approximation methods](#general)
+- [Finite element, finite volume,  spectral element methods](#femfvm)
+- [Boundary element, Boundary integral methods](#bie)
+- [Solvers, sparse and hierarchical matrix libraries](#solvers)
+- [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
 
-## General PDE approximation methods
+## <a name="general"></a>General PDE approximation methods
 
 ### [https://github.com/JuliaApproximation/ApproxFun.jl](https://github.com/JuliaApproximation/ApproxFun.jl)
 
@@ -18,7 +23,7 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 
 
-## Finite element, finite volume,  spectral element methods
+## <a name="femfvm"></a>Finite element, finite volume,  spectral element methods
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
@@ -88,13 +93,13 @@ In addition to functionality for discretizing arbitrary PDEs, DiscretePDEs.jl al
 
 PDESolver is a multi-physics solver primarily focused on Computational Fluid Dynamics. 
 
-## Boundary element, Boundary integral methods
+## <a name="bie"></a>Boundary element, Boundary integral methods
 
 ### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
 
 This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
 
-## Solvers, sparse and hierarchical matrix libraries
+## <a name="solvers">Solvers, sparse and hierarchical matrix libraries
 
 ### https://github.com/JuliaParallel/PETSc.jl
 
@@ -133,7 +138,7 @@ A Julia package for representing block-block-banded matrices and banded-block-ba
 
 This software suite is a companion to the manuscript Scalable Gaussian Process Computations using Hierarchical Matrices.
 
-## Mesh and Grid Generation
+## <a name="grids">Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
 
