@@ -59,9 +59,12 @@ Updated for Julia 1.0.
 
 FEM Solver for Elliptic, Parabolic and Hyperbolic PDEs Written in Julia. No update in the past three years.
 
-- [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
-- https://github.com/krcools/ClusterTrees.jl
-- [https://github.com/ga96tik/SauterSchwabQuadrature.jl](https://github.com/ga96tik/SauterSchwabQuadrature.jl)
+### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
+
+The package can support finite element discretization.
+Also listed as a boundary-element code. Also see [TeaTalk.jl](https://github.com/krcools/TeaTalk.jl).
+
+### [https://github.com/ga96tik/SauterSchwabQuadrature.jl](https://github.com/ga96tik/SauterSchwabQuadrature.jl)
 
 
 ### [https://github.com/ranocha/HyperbolicDiffEq.jl](https://github.com/ranocha/HyperbolicDiffEq.jl) 
@@ -148,6 +151,10 @@ A Julia package for representing block-block-banded matrices and banded-block-ba
 
 This software suite is a companion to the manuscript Scalable Gaussian Process Computations using Hierarchical Matrices.
 
+### https://github.com/krcools/ClusterTrees.jl
+
+Tree data structures for fast multipole methods and H-matrices.
+
 ## <a name="grids">Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
@@ -162,6 +169,9 @@ Julia wrapper for Johnathan Richard Shewchuk's Triangle mesh generator.
 
 The TetGen.jl package is a Julia wrapper for the C++ project TetGen. This wrapper enables TetGen based tetrahedral meshing, and (constrained) 3D Delaunay and Voronoi tesselation.
 
+### [https://github.com/krcools/CompScienceMeshes.jl](https://github.com/krcools/CompScienceMeshes.jl)
+
+Geometry types and algorithms for computational science. Meshes, charts, and neighborhoods.
 
 ## <a name="post"></a>Postprocessing, visualization
 
