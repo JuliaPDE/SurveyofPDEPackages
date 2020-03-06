@@ -72,8 +72,14 @@ Active with updates for Julia 1.3.
 
 A library of functions for polynomial bases used in spectral element methods.
 
-- [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
-- [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
+### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
+
+Finite Volume code. Not much information on the site.
+
+### [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
+
+Tools for FEM and VEM (Virtual Element) methods.
+
 ### [https://github.com/gridap/Gridap.jl](https://github.com/gridap/Gridap.jl)
 
 Gridap provides a set of tools for the grid-based approximation of partial differential equations (PDEs) written in the Julia programming language. 
