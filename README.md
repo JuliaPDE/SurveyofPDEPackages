@@ -25,7 +25,10 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 ### [https://juliadiffeq.org/](https://juliadiffeq.org/)
 
-### https://github.com/JuliaDiffEq/FEniCS.jl
+### [https://github.com/johnfgibson/julia-pde-benchmark](https://github.com/johnfgibson/julia-pde-benchmark)
+
+Benchmarking a simple PDE integration algorithm in Julia and other languages.
+Fourier approach.
 
 ## <a name="fdm"></a>Finite difference methods
 ### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
@@ -33,6 +36,10 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 Automatic construction of arbitrary order finite difference stencils on regular and irregular grids. Utilizes stencil compilers and matrix-free implementations for low memory high efficiency implementation.
 
 ## <a name="fem"></a>Finite  element methods
+
+### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
+
+FEniCS.jl is a wrapper for the FEniCS library for finite element discretizations of PDEs. 
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
@@ -100,6 +107,10 @@ PDESolver is a multi-physics solver primarily focused on Computational Fluid Dyn
 ### https://github.com/ZenanH/juSFEM
 Smoothed FEM.
 [Paper ](https://www.sciencedirect.com/science/article/pii/S0898122120300523)
+
+### [https://github.com/dpeschka/jPDE](https://github.com/dpeschka/jPDE)
+
+Partial Differential Equations with Julia, with FEM.
 
 ## <a name="fvm"></a>Finite  volume methods
 
@@ -245,18 +256,11 @@ This module allows to write VTK XML files, that can be visualised for example wi
 
 ## In need of sorting
 
-### https://github.com/dpeschka/jPDE
-
 ### https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics
 
 ### https://github.com/JuliaParallel/MPI.jl
 
 ### OptimalDesignLab/PUMI.jl
-
-### https://github.com/johnfgibson/julia-pde-benchmark
-
-
-
 
 ### https://github.com/nep-pack/NonlinearEigenproblems.jl
 
