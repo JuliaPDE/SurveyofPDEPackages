@@ -84,6 +84,8 @@ Solver for coupled nonlinear partial differential equations based on the Voronoi
 
 ### [https://github.com/PetrKryslUCSD/FinEtools.jl.git](https://github.com/PetrKryslUCSD/FinEtools.jl.git)
 
+FinEtools is a package for basic operations on finite element meshes. It also supports a number of packages for applications to heat conduction, acoustics, static and dynamic linear and nonlinear stress analysis, vibrations and fluids,  model reduction, and flexible beams.
+
 ### https://github.com/rigetti/DiscretePDEs.jl
 
 DiscretePDEs.jl is a package for discretizing partial differential equations using DiscreteExteriorCalculus.jl. 
@@ -109,6 +111,8 @@ This package provides a high level interface for PETSc.
 This package provides thin wrappers for PETSc, as well as a few convenience functions that take advantage of multiple dispatch.
 
 ### https://github.com/ranocha/PositiveFactorizations.jl
+
+PositiveFactorizations is a package for computing a positive definite matrix decomposition (factorization) from an arbitrary symmetric input. The motivating application is optimization.
 
 ### [https://github.com/JuliaDiff/FiniteDiff.jl](https://github.com/JuliaDiff/FiniteDiff.jl)
 
@@ -141,6 +145,8 @@ This software suite is a companion to the manuscript Scalable Gaussian Process C
 ## <a name="grids">Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
+
+Gmsh.jl contains API for Gmsh: a three-dimensional finite element mesh generator. With the help of Gmsh.jl, it is possible add parametric model construction and/or automatic mesh generation to a FEM/FVM pipeline.
 
 ### [https://github.com/JuliaGeometry/Triangulate.jl](https://github.com/JuliaGeometry/Triangulate.jl)
 
