@@ -289,3 +289,12 @@ This code provides a way to use PUMI from Julia by wrapping functions in PUMIs A
 ### [https://github.com/avigliotti/AD4SM.jl](https://github.com/avigliotti/AD4SM.jl)
 
 Automatic Differentiation for Solid Mechanics in Julia.
+
+### [https://github.com/JuliaRheology/RHEOS.jl](https://github.com/JuliaRheology/RHEOS.jl)
+
+RHEOS, an abbreviation of Rheology Open Source, is a software package written in the Julia programming language that provides tools for analyzing rheological data.
+
+### [https://github.com/KristofferC/Tensors.jl](https://github.com/KristofferC/Tensors.jl)
+
+Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
+
