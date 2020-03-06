@@ -105,17 +105,28 @@ This package provides thin wrappers for PETSc, as well as a few convenience func
 
 This package is for calculating derivatives, gradients, Jacobians, Hessians, etc. numerically. 
 
+### [https://github.com/JuliaDiff/SparseDiffTools.jl](https://github.com/JuliaDiff/SparseDiffTools.jl)
+
+This package is for exploiting sparsity in Jacobians and Hessians to accelerate computations. Matrix-free Jacobian-vector product and Hessian-vector product operators are provided that are compatible with AbstractMatrix-based libraries like IterativeSolvers.jl for easy and efficient Newton-Krylov implementation. It is possible to perform matrix coloring, and utilize coloring in Jacobian and Hessian construction.
+
 ## Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
+
+### [https://github.com/JuliaGeometry/Triangulate.jl](https://github.com/JuliaGeometry/Triangulate.jl)
+
+Julia wrapper for Johnathan Richard Shewchuk's Triangle mesh generator. 
+
+### [https://github.com/JuliaGeometry/TetGen.jl](https://github.com/JuliaGeometry/TetGen.jl)
+
+The TetGen.jl package is a Julia wrapper for the C++ project TetGen. This wrapper enables TetGen based tetrahedral meshing, and (constrained) 3D Delaunay and Voronoi tesselation.
+
 
 ## Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
 
 This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
-
-
 
 ## In the need of sorting
 
