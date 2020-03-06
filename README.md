@@ -24,8 +24,12 @@
 
 ## Boundary element, Boundary integral methods
 
-- [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
+### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
+
+This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
 
 ## Postprocessing, visualization
 
-- [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl)
+### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
+
+This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
