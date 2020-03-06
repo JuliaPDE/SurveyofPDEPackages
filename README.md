@@ -16,6 +16,8 @@ Last update: 03/05/2020
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
+A simple finite element toolbox written in Julia. It is actually quite powerful, and it is being actively updated.
+
 ### [https://github.com/JuliaFEM/](https://github.com/JuliaFEM/)
 
 The JuliaFEM project develops open-source software for reliable, scalable, distributed Finite Element Method.
@@ -61,7 +63,10 @@ A library of functions for polynomial bases used in spectral element methods.
 
 - [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
 - [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
-- [https://github.com/gridap/Gridap.jl](https://github.com/gridap/Gridap.jl)
+### [https://github.com/gridap/Gridap.jl](https://github.com/gridap/Gridap.jl)
+
+Gridap provides a set of tools for the grid-based approximation of partial differential equations (PDEs) written in the Julia programming language. 
+
 ### [https://github.com/j-fu/VoronoiFVM.jl](https://github.com/j-fu/VoronoiFVM.jl)
 
 Solver for coupled nonlinear partial differential equations based on the Voronoi finite volume method.
@@ -109,3 +114,17 @@ This module allows to write VTK XML files, that can be visualised for example wi
 ## In the need of sorting
 
 https://github.com/dpeschka/jPDE
+
+https://github.com/ZenanH/juSFEM
+https://www.sciencedirect.com/science/article/pii/S0898122120300523
+
+https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics
+
+https://github.com/JuliaParallel/MPI.jl
+
+OptimalDesignLab/PUMI.jl
+
+https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia
+
+
+
