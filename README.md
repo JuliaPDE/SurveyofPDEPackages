@@ -2,6 +2,10 @@
 
 State of the ecosystem as of: 03/05/2020
 
+## Table of contents
+
+- [Postprocessing, visualization](#post)
+
 ## General PDE approximation methods
 
 ### [https://github.com/JuliaApproximation/ApproxFun.jl](https://github.com/JuliaApproximation/ApproxFun.jl)
@@ -142,7 +146,7 @@ Julia wrapper for Johnathan Richard Shewchuk's Triangle mesh generator.
 The TetGen.jl package is a Julia wrapper for the C++ project TetGen. This wrapper enables TetGen based tetrahedral meshing, and (constrained) 3D Delaunay and Voronoi tesselation.
 
 
-## Postprocessing, visualization
+## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
 
