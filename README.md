@@ -109,6 +109,26 @@ This package is for calculating derivatives, gradients, Jacobians, Hessians, etc
 
 This package is for exploiting sparsity in Jacobians and Hessians to accelerate computations. Matrix-free Jacobian-vector product and Hessian-vector product operators are provided that are compatible with AbstractMatrix-based libraries like IterativeSolvers.jl for easy and efficient Newton-Krylov implementation. It is possible to perform matrix coloring, and utilize coloring in Jacobian and Hessian construction.
 
+### [https://github.com/JuliaMatrices/HierarchicalMatrices.jl](https://github.com/JuliaMatrices/HierarchicalMatrices.jl)
+
+This package provides a flexible framework for hierarchical matrices in Julia.
+
+### [https://github.com/JuliaMatrices/LowRankApprox.jl](https://github.com/JuliaMatrices/LowRankApprox.jl)
+
+This Julia package provides fast low-rank approximation algorithms for BLAS/LAPACK-compatible matrices based on some of the latest technology in adaptive randomized matrix sketching. 
+
+### [https://github.com/JuliaMatrices/LazyBandedMatrices.jl](https://github.com/JuliaMatrices/LazyBandedMatrices.jl)
+
+This package supports lazy banded and block-banded matrices.
+
+### [https://github.com/JuliaMatrices/BlockBandedMatrices.jl](https://github.com/JuliaMatrices/BlockBandedMatrices.jl)
+
+A Julia package for representing block-block-banded matrices and banded-block-banded matrices.
+
+### [https://bitbucket.org/cgeoga/kernelmatrices.jl](https://bitbucket.org/cgeoga/kernelmatrices.jl)
+
+This software suite is a companion to the manuscript Scalable Gaussian Process Computations using Hierarchical Matrices.
+
 ## Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
@@ -145,3 +165,10 @@ https://www.researchgate.net/publication/312610697_Programming_the_material_poin
 
 https://github.com/johnfgibson/julia-pde-benchmark
 
+https://github.com/JuliaGeometry/VoronoiDelaunay.jl
+
+
+
+https://github.com/nep-pack/NonlinearEigenproblems.jl
+
+https://github.com/JuliaNLSolvers/Manifolds.jl
