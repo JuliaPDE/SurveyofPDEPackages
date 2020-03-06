@@ -16,6 +16,7 @@ State of the ecosystem as of: 03/05/2020
 - [Solvers, sparse and hierarchical matrix libraries](#solvers)
 - [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
+- [HPC, Parallel processing](#hpc)
 
 ## <a name="general"></a>General PDE approximation methods
 
@@ -113,6 +114,10 @@ Smoothed FEM.
 ### [https://github.com/dpeschka/jPDE](https://github.com/dpeschka/jPDE)
 
 Partial Differential Equations with Julia, with FEM.
+
+### [www.researchgate.net/..._CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics](https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics)
+
+CFD Julia is a programming module developed for senior undergraduate or graduate-level coursework which teaches the foundations of computational fluid dynamics (CFD). The paper explains various concepts related to spatial and temporal discretization, explicit and implicit numerical schemes, multi-step numerical schemes, higher-order shock-capturing numerical methods, and iterative solvers in CFD. 
 
 ## <a name="fvm"></a>Finite  volume methods
 
@@ -226,8 +231,12 @@ SuiteSparse wrappers in Julia.
 ### [https://github.com/JuliaLinearAlgebra/Arpack.jl](https://github.com/JuliaLinearAlgebra/Arpack.jl)
 Julia wrapper for the arpack library designed to solve large scale eigenvalue problems. ARPACK is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 
-[https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl](https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl)
+### [https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl](https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl)
 Solve sparse linear systems using Algebraic Multigrid (AMG). This works especially well for symmetric positive definite matrices.
+
+### [https://github.com/nep-pack/NonlinearEigenproblems.jl](https://github.com/nep-pack/NonlinearEigenproblems.jl)
+
+This package aims to provide state-of-the-art algorithms to solve the nonlinear eigenvalue problem. This currently includes (but is not restricted to) Newton-type methods, Subspace methods, Krylov methods, contour integral methods, block methods, companion matrix approaches. Problem transformation techniques such as scaling, shifting, deflating are also natively supported by the package.
 
 ## <a name="geo">Geometry and topology
 
@@ -265,12 +274,12 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
 
-## In need of sorting
+## <a name="hpc"></a>HPC, Parallel processing
 
-### https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics
+### [https://github.com/JuliaParallel/MPI.jl](https://github.com/JuliaParallel/MPI.jl)
 
-### https://github.com/JuliaParallel/MPI.jl
+This provides Julia interface to the Message Passing Interface (MPI), roughly inspired by mpi4py.
 
-### OptimalDesignLab/PUMI.jl
+### [https://github.com/OptimalDesignLab/PumiInterface.jl](https://github.com/OptimalDesignLab/PumiInterface.jl)
 
-### https://github.com/nep-pack/NonlinearEigenproblems.jl
+This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API. 
