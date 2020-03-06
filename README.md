@@ -25,6 +25,8 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 ### [https://juliadiffeq.org/](https://juliadiffeq.org/)
 
+JuliaDiffEq is a Github organization created to unify the packages for solving differential equations in Julia. By providing a diverse set of tools with a common interface, we provide a modular, easily-extendable, and highly performant ecosystem for solving various forms of differential equations.
+
 ### [https://github.com/johnfgibson/julia-pde-benchmark](https://github.com/johnfgibson/julia-pde-benchmark)
 
 Benchmarking a simple PDE integration algorithm in Julia and other languages.
@@ -227,6 +229,16 @@ Julia wrapper for the arpack library designed to solve large scale eigenvalue pr
 [https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl](https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl)
 Solve sparse linear systems using Algebraic Multigrid (AMG). This works especially well for symmetric positive definite matrices.
 
+## <a name="geo">Geometry and topology
+
+### [https://github.com/JuliaNLSolvers/Manifolds.jl](https://github.com/JuliaNLSolvers/Manifolds.jl)
+
+Manifolds.jl aims to provide both a unified interface to define and use manifolds as well as a library of manifolds to use for your projects.
+
+### [https://github.com/chakravala/Grassmann.jl](https://github.com/chakravala/Grassmann.jl)
+
+The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
+
 ## <a name="grids">Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
@@ -247,7 +259,6 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 ### https://github.com/JuliaGeometry/VoronoiDelaunay.jl
 
-
 ## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
@@ -263,5 +274,3 @@ This module allows to write VTK XML files, that can be visualised for example wi
 ### OptimalDesignLab/PUMI.jl
 
 ### https://github.com/nep-pack/NonlinearEigenproblems.jl
-
-### https://github.com/JuliaNLSolvers/Manifolds.jl
