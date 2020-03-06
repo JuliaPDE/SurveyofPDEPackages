@@ -21,9 +21,11 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 ### https://github.com/JuliaDiffEq/FEniCS.jl
 
+## <a name="femfvm"></a>Finite difference, finite element, finite volume, spectral element methods
 
+### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
 
-## <a name="femfvm"></a>Finite element, finite volume,  spectral element methods
+Automatic construction of arbitrary order finite difference stencils on regular and irregular grids. Utilizes stencil compilers and matrix-free implementations for low memory high efficiency implementation.
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
@@ -110,7 +112,17 @@ PDESolver is a multi-physics solver primarily focused on Computational Fluid Dyn
 
 This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
 
+## <a name="nonclassical">Non-classical methods
+
+### [https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl](https://github.com/JuliaDiffEq/NeuralNetDiffEq.jl)
+
+A library for solving (partial) differential equations with neural networks. Currently supports parabolic differential equations, though a generic NN-based PDE solver is in progress. Can solve very high dimensional (hundred or thousand) partial differential equations through [universal differential equation](https://arxiv.org/abs/2001.04385) approaches.
+
 ## <a name="solvers">Solvers, sparse and hierarchical matrix libraries
+  
+### https://github.com/JuliaDiffEq/DifferentialEquations.jl
+
+A package for solving time-stepping of differential equations which result from PDE discretizations. Heavy emphasis on large-scale stiff differential equations with sparse Jacobians, i.e. DEs from PDEs. See [the stiff ODE tutorial](https://docs.juliadiffeq.org/dev/tutorials/advanced_ode_example/) for more details.
 
 ### https://github.com/JuliaParallel/PETSc.jl
 
