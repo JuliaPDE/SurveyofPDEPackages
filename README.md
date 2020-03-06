@@ -6,7 +6,11 @@ Last update: 03/05/2020
 
 ### [https://github.com/JuliaApproximation/ApproxFun.jl](https://github.com/JuliaApproximation/ApproxFun.jl)
 
+### [https://juliadiffeq.org/](https://juliadiffeq.org/)
+
 ### https://github.com/JuliaDiffEq/FEniCS.jl
+
+
 
 ## Finite element, finite volume,  spectral element methods
 
@@ -31,7 +35,12 @@ HP Finite elements in Julia. One-dimensional. Might have been abandoned.
 
 Not much activity.
 
-- https://github.com/JuliaDiffEq/FEniCS.jl
+### https://github.com/JuliaDiffEq/FEniCS.jl
+
+### https://github.com/simulkade/JFVM.jl
+
+Finite volume tool for the transport phenomena in chemical and petroleum engineering and similar fields (linear transient advection-diffusion PDE).
+Updated for Julia 1.0.
 
 ### [https://github.com/gerhardtulzer/EllipticFEM.jl/](https://github.com/gerhardtulzer/EllipticFEM.jl/)
 
@@ -80,6 +89,9 @@ This package contains common basis functions and assembly routines for the imple
 
 This package provides a high level interface for PETSc.
 
+### https://github.com/OptimalDesignLab/PETSc2.jl
+This package provides thin wrappers for PETSc, as well as a few convenience functions that take advantage of multiple dispatch.
+
 ### https://github.com/ranocha/PositiveFactorizations.jl
 
 ## Mesh and Grid Generation
@@ -91,3 +103,9 @@ This package provides a high level interface for PETSc.
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
 
 This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
+
+
+
+## In the need of sorting
+
+https://github.com/dpeschka/jPDE
