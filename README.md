@@ -1,10 +1,12 @@
 # Survey of PDE Packages
 
-Last update: 03/05/2020
+State of the ecosystem as of: 03/05/2020
 
 ## General PDE approximation methods
 
 ### [https://github.com/JuliaApproximation/ApproxFun.jl](https://github.com/JuliaApproximation/ApproxFun.jl)
+
+ApproxFun is a package for approximating functions. It is in a similar vein to the Matlab package Chebfun and the Mathematica package RHPackage. Active and high quality project.
 
 ### [https://juliadiffeq.org/](https://juliadiffeq.org/)
 
@@ -16,7 +18,7 @@ Last update: 03/05/2020
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
-A simple finite element toolbox written in Julia. It is actually quite powerful, and it is being actively updated.
+A simple finite element toolbox written in Julia. It is actually quite powerful, and it is being actively updated. Some parallels with deal.II might help with the learning curve.
 
 ### [https://github.com/JuliaFEM/](https://github.com/JuliaFEM/)
 
