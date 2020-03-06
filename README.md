@@ -101,6 +101,10 @@ This package provides thin wrappers for PETSc, as well as a few convenience func
 
 ### https://github.com/ranocha/PositiveFactorizations.jl
 
+### [https://github.com/JuliaDiff/FiniteDiff.jl](https://github.com/JuliaDiff/FiniteDiff.jl)
+
+This package is for calculating derivatives, gradients, Jacobians, Hessians, etc. numerically. 
+
 ## Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
@@ -128,5 +132,5 @@ OptimalDesignLab/PUMI.jl
 
 https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia
 
-
+https://github.com/johnfgibson/julia-pde-benchmark
 
