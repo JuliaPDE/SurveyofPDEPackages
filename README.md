@@ -87,11 +87,10 @@ Tools for FEM and VEM (Virtual Element) methods.
 
 Gridap provides a rich set of tools for the grid-based approximation of PDEs, mainly finite element methods, written in the Julia programming language. Some features of the library are:
 
- - **Discretization mentods:** Continuous and discontinuous Galerkin methods with Lagrangian, Raviart-Thomas, and Nedelec interpolations of arbitrary order and dimension.
- - **Problem types:** linear, and non-linear, single-field, and multi-physics problems, both volume-coupled and surface-coupled.
- - **Mesh generation:** Built-in Cartesian mesh generator in arbitrary dimensions; interface with GMSH for unstructured grids via the pluggin [GridapGmsh](https://github.com/gridap/GridapGmsh.jl)
- - **Linear and non-linear solvers**: Interfaces with Pardiso and PETSc via the pluggins [GridapPardiso](https://github.com/gridap/GridapPardiso.jl) and [GridapPETSc](https://github.com/gridap/GridapPETSc.jl).
- 
+ - **Discretization mentods:** Continuous and discontinuous Galerkin methods with Lagrangian, Raviart-Thomas, and Nédélec interpolations of arbitrary order and dimension.
+ - **Problem types:** Linear, and non-linear, single-field, and multi-physics problems, both volume-coupled and surface-coupled.
+ - **Mesh generation:** Built-in Cartesian mesh generator in arbitrary dimensions; interface with GMSH for unstructured grids via the plugin [GridapGmsh](https://github.com/gridap/GridapGmsh.jl).
+ - **Linear and non-linear solvers**: Interfaces with Pardiso and PETSc via the plugins [GridapPardiso](https://github.com/gridap/GridapPardiso.jl) and [GridapPETSc](https://github.com/gridap/GridapPETSc.jl).
 
 ### [https://github.com/j-fu/VoronoiFVM.jl](https://github.com/j-fu/VoronoiFVM.jl)
 
