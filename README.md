@@ -6,6 +6,7 @@ Last update: 03/05/2020
 
 ### [https://github.com/JuliaApproximation/ApproxFun.jl](https://github.com/JuliaApproximation/ApproxFun.jl)
 
+### https://github.com/JuliaDiffEq/FEniCS.jl
 
 ## Finite element, finite volume,  spectral element methods
 
@@ -58,6 +59,15 @@ Solver for coupled nonlinear partial differential equations based on the Voronoi
 
 ### [https://github.com/PetrKryslUCSD/FinEtools.jl.git](https://github.com/PetrKryslUCSD/FinEtools.jl.git)
 
+### https://github.com/rigetti/DiscretePDEs.jl
+
+DiscretePDEs.jl is a package for discretizing partial differential equations using DiscreteExteriorCalculus.jl. 
+In addition to functionality for discretizing arbitrary PDEs, DiscretePDEs.jl also has functionality specifically for modeling electromagnetism.
+
+### [https://github.com/OptimalDesignLab/PDESolver.jl](https://github.com/OptimalDesignLab/PDESolver.jl)
+
+PDESolver is a multi-physics solver primarily focused on Computational Fluid Dynamics. 
+
 ## Boundary element, Boundary integral methods
 
 ### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
@@ -66,7 +76,11 @@ This package contains common basis functions and assembly routines for the imple
 
 ## Solvers, sparse and hierarchical matrix libraries
 
-### Petsc.jl
+### https://github.com/JuliaParallel/PETSc.jl
+
+This package provides a high level interface for PETSc.
+
+### https://github.com/ranocha/PositiveFactorizations.jl
 
 ## Mesh and Grid Generation
 
