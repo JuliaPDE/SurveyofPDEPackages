@@ -17,6 +17,7 @@ State of the ecosystem as of: 03/05/2020
 - [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
 - [HPC, Parallel processing](#hpc)
+- [Miscellanea](#misc)
 
 ## <a name="general"></a>General PDE approximation methods
 
@@ -61,13 +62,11 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 
 ### [https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
 
-### https://github.com/pjabardo/Makhno.jl
+### [https://github.com/pjabardo/Makhno.jl](https://github.com/pjabardo/Makhno.jl)
 
 ### [https://github.com/pjabardo/HPFEM.jl](https://github.com/pjabardo/HPFEM.jl)
 
 HP Finite elements in Julia. One-dimensional. Might have been abandoned.
-
-### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
 
 ### [https://github.com/gerhardtulzer/EllipticFEM.jl/](https://github.com/gerhardtulzer/EllipticFEM.jl/)
 
@@ -283,3 +282,10 @@ This provides Julia interface to the Message Passing Interface (MPI), roughly in
 ### [https://github.com/OptimalDesignLab/PumiInterface.jl](https://github.com/OptimalDesignLab/PumiInterface.jl)
 
 This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API. 
+
+
+## <a name="misc"></a>Miscellanea
+
+### [https://github.com/avigliotti/AD4SM.jl](https://github.com/avigliotti/AD4SM.jl)
+
+Automatic Differentiation for Solid Mechanics in Julia.
