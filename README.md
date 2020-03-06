@@ -5,11 +5,19 @@ State of the ecosystem as of: 03/05/2020
 ## Table of contents
 
 - [General PDE approximation methods](#general)
-- [Finite element, finite volume,  spectral element methods](#femfvm)
+- [Finite difference methods](#fdm)
+- [Finite element methods](#femfvm)
+- [Finite volume methods](#femfvm)
+- [Spectral element methods](#sem)
 - [Boundary element, Boundary integral methods](#bie)
+- [Mesh free methods](#mfe)
+- [Virtual element methods](#vem)
+- [Non-classical methods](#nonclassical)
 - [Solvers, sparse and hierarchical matrix libraries](#solvers)
 - [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
+- [HPC, Parallel processing](#hpc)
+- [Miscellanea](#misc)
 
 ## <a name="general"></a>General PDE approximation methods
 
@@ -19,13 +27,23 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 ### [https://juliadiffeq.org/](https://juliadiffeq.org/)
 
-### https://github.com/JuliaDiffEq/FEniCS.jl
+JuliaDiffEq is a Github organization created to unify the packages for solving differential equations in Julia. By providing a diverse set of tools with a common interface, we provide a modular, easily-extendable, and highly performant ecosystem for solving various forms of differential equations.
 
-## <a name="femfvm"></a>Finite difference, finite element, finite volume, spectral element methods
+### [https://github.com/johnfgibson/julia-pde-benchmark](https://github.com/johnfgibson/julia-pde-benchmark)
 
+Benchmarking a simple PDE integration algorithm in Julia and other languages.
+Fourier approach.
+
+## <a name="fdm"></a>Finite difference methods
 ### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
 
 Automatic construction of arbitrary order finite difference stencils on regular and irregular grids. Utilizes stencil compilers and matrix-free implementations for low memory high efficiency implementation.
+
+## <a name="fem"></a>Finite  element methods
+
+### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
+
+FEniCS.jl is a wrapper for the FEniCS library for finite element discretizations of PDEs. 
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
@@ -38,24 +56,17 @@ The JuliaFEM project develops open-source software for reliable, scalable, distr
 Maintains an overview page with documentation at
 [http://www.juliafem.org/](http://www.juliafem.org/).
 
-- NESSie.jl – Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X)
-- [https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
-- 
-- https://github.com/pjabardo/Makhno.jl
+### NESSie.jl 
+
+Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X)
+
+### [https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
+
+### [https://github.com/pjabardo/Makhno.jl](https://github.com/pjabardo/Makhno.jl)
+
 ### [https://github.com/pjabardo/HPFEM.jl](https://github.com/pjabardo/HPFEM.jl)
 
 HP Finite elements in Julia. One-dimensional. Might have been abandoned.
-
-### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
-
-Not much activity.
-
-### https://github.com/JuliaDiffEq/FEniCS.jl
-
-### https://github.com/simulkade/JFVM.jl
-
-Finite volume tool for the transport phenomena in chemical and petroleum engineering and similar fields (linear transient advection-diffusion PDE).
-Updated for Julia 1.0.
 
 ### [https://github.com/gerhardtulzer/EllipticFEM.jl/](https://github.com/gerhardtulzer/EllipticFEM.jl/)
 
@@ -73,18 +84,6 @@ Also listed as a boundary-element code. Also see [TeaTalk.jl](https://github.com
 
 Active with updates for Julia 1.3.
 
-### [https://github.com/ranocha/PolynomialBases.jl](https://github.com/ranocha/PolynomialBases.jl)
-
-A library of functions for polynomial bases used in spectral element methods.
-
-### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
-
-Finite Volume code. Not much information on the site.
-
-### [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
-
-Tools for FEM and VEM (Virtual Element) methods.
-
 ### [https://github.com/gridap/Gridap.jl](https://github.com/gridap/Gridap.jl)
 
 Gridap provides a rich set of tools for the grid-based approximation of PDEs, mainly finite element methods, written in the Julia programming language. Some features of the library are:
@@ -93,10 +92,6 @@ Gridap provides a rich set of tools for the grid-based approximation of PDEs, ma
  - **Problem types:** Linear, and non-linear, single-field, and multi-physics problems, both volume-coupled and surface-coupled.
  - **Mesh generation:** Built-in Cartesian mesh generator in arbitrary dimensions; interface with GMSH for unstructured grids via the plugin [GridapGmsh](https://github.com/gridap/GridapGmsh.jl).
  - **Linear and non-linear solvers**: Interfaces with Pardiso and PETSc via the plugins [GridapPardiso](https://github.com/gridap/GridapPardiso.jl) and [GridapPETSc](https://github.com/gridap/GridapPETSc.jl).
-
-### [https://github.com/j-fu/VoronoiFVM.jl](https://github.com/j-fu/VoronoiFVM.jl)
-
-Solver for coupled nonlinear partial differential equations based on the Voronoi finite volume method.
 
 ### [https://github.com/PetrKryslUCSD/FinEtools.jl.git](https://github.com/PetrKryslUCSD/FinEtools.jl.git)
 
@@ -111,11 +106,64 @@ In addition to functionality for discretizing arbitrary PDEs, DiscretePDEs.jl al
 
 PDESolver is a multi-physics solver primarily focused on Computational Fluid Dynamics. 
 
+### https://github.com/ZenanH/juSFEM
+Smoothed FEM.
+[Paper ](https://www.sciencedirect.com/science/article/pii/S0898122120300523)
+
+### [https://github.com/dpeschka/jPDE](https://github.com/dpeschka/jPDE)
+
+Partial Differential Equations with Julia, with FEM.
+
+### [www.researchgate.net/..._CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics](https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics)
+
+CFD Julia is a programming module developed for senior undergraduate or graduate-level coursework which teaches the foundations of computational fluid dynamics (CFD). The paper explains various concepts related to spatial and temporal discretization, explicit and implicit numerical schemes, multi-step numerical schemes, higher-order shock-capturing numerical methods, and iterative solvers in CFD. 
+
+## <a name="fvm"></a>Finite  volume methods
+
+### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
+
+Finite Volume code. Not much information on the site.
+
+### [https://github.com/j-fu/VoronoiFVM.jl](https://github.com/j-fu/VoronoiFVM.jl)
+
+Solver for coupled nonlinear partial differential equations based on the Voronoi finite volume method.
+
+### [https://github.com/simulkade/JFVM.jl](https://github.com/simulkade/JFVM.jl)
+
+Finite volume tool for the transport phenomena in chemical and petroleum engineering and similar fields (linear transient advection-diffusion PDE).
+Updated for Julia 1.0.
+
+## <a name="sem"></a>Spectral  element methods
+
+### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
+
+Not much activity.
+
+### [https://github.com/ranocha/PolynomialBases.jl](https://github.com/ranocha/PolynomialBases.jl)
+
+A library of functions for polynomial bases used in spectral element methods.
+
 ## <a name="bie"></a>Boundary element, Boundary integral methods
 
 ### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
 
 This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
+
+### NESSie.jl 
+
+Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X) Also listed as a finite element toolkit.
+
+## <a name="mfe">Mesh free methods
+
+
+### [www.researchgate.net..._Programming_the_material_point_method_in_Julia](https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia)
+
+
+## <a name="vem">Virtual element methods
+
+### [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
+
+Tools for FEM and VEM (Virtual Element) methods.
 
 ## <a name="nonclassical">Non-classical methods
 
@@ -134,6 +182,7 @@ A package for solving time-stepping of differential equations which result from 
 This package provides a high level interface for PETSc.
 
 ### https://github.com/OptimalDesignLab/PETSc2.jl
+
 This package provides thin wrappers for PETSc, as well as a few convenience functions that take advantage of multiple dispatch.
 
 ### https://github.com/ranocha/PositiveFactorizations.jl
@@ -168,9 +217,35 @@ A Julia package for representing block-block-banded matrices and banded-block-ba
 
 This software suite is a companion to the manuscript Scalable Gaussian Process Computations using Hierarchical Matrices.
 
-### https://github.com/krcools/ClusterTrees.jl
+### [https://github.com/krcools/ClusterTrees.jl](https://github.com/krcools/ClusterTrees.jl)
 
 Tree data structures for fast multipole methods and H-matrices.
+
+
+### [https://github.com/JuliaLinearAlgebra/SuiteSparse.jl](https://github.com/JuliaLinearAlgebra/SuiteSparse.jl)
+
+
+SuiteSparse wrappers in Julia.
+
+### [https://github.com/JuliaLinearAlgebra/Arpack.jl](https://github.com/JuliaLinearAlgebra/Arpack.jl)
+Julia wrapper for the arpack library designed to solve large scale eigenvalue problems. ARPACK is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+
+### [https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl](https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl)
+Solve sparse linear systems using Algebraic Multigrid (AMG). This works especially well for symmetric positive definite matrices.
+
+### [https://github.com/nep-pack/NonlinearEigenproblems.jl](https://github.com/nep-pack/NonlinearEigenproblems.jl)
+
+This package aims to provide state-of-the-art algorithms to solve the nonlinear eigenvalue problem. This currently includes (but is not restricted to) Newton-type methods, Subspace methods, Krylov methods, contour integral methods, block methods, companion matrix approaches. Problem transformation techniques such as scaling, shifting, deflating are also natively supported by the package.
+
+## <a name="geo">Geometry and topology
+
+### [https://github.com/JuliaNLSolvers/Manifolds.jl](https://github.com/JuliaNLSolvers/Manifolds.jl)
+
+Manifolds.jl aims to provide both a unified interface to define and use manifolds as well as a library of manifolds to use for your projects.
+
+### [https://github.com/chakravala/Grassmann.jl](https://github.com/chakravala/Grassmann.jl)
+
+The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
 
 ## <a name="grids">Mesh and Grid Generation
 
@@ -190,33 +265,36 @@ The TetGen.jl package is a Julia wrapper for the C++ project TetGen. This wrappe
 
 Geometry types and algorithms for computational science. Meshes, charts, and neighborhoods.
 
+### https://github.com/JuliaGeometry/VoronoiDelaunay.jl
+
 ## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
 
 This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
 
-## In the need of sorting
+## <a name="hpc"></a>HPC, Parallel processing
 
-https://github.com/dpeschka/jPDE
+### [https://github.com/JuliaParallel/MPI.jl](https://github.com/JuliaParallel/MPI.jl)
 
-https://github.com/ZenanH/juSFEM
-https://www.sciencedirect.com/science/article/pii/S0898122120300523
+This provides Julia interface to the Message Passing Interface (MPI), roughly inspired by mpi4py.
 
-https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics
+### [https://github.com/OptimalDesignLab/PumiInterface.jl](https://github.com/OptimalDesignLab/PumiInterface.jl)
 
-https://github.com/JuliaParallel/MPI.jl
-
-OptimalDesignLab/PUMI.jl
-
-https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia
-
-https://github.com/johnfgibson/julia-pde-benchmark
-
-https://github.com/JuliaGeometry/VoronoiDelaunay.jl
+This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API. 
 
 
+## <a name="misc"></a>Miscellanea
 
-https://github.com/nep-pack/NonlinearEigenproblems.jl
+### [https://github.com/avigliotti/AD4SM.jl](https://github.com/avigliotti/AD4SM.jl)
 
-https://github.com/JuliaNLSolvers/Manifolds.jl
+Automatic Differentiation for Solid Mechanics in Julia.
+
+### [https://github.com/JuliaRheology/RHEOS.jl](https://github.com/JuliaRheology/RHEOS.jl)
+
+RHEOS, an abbreviation of Rheology Open Source, is a software package written in the Julia programming language that provides tools for analyzing rheological data.
+
+### [https://github.com/KristofferC/Tensors.jl](https://github.com/KristofferC/Tensors.jl)
+
+Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
+
