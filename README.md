@@ -17,6 +17,7 @@ For some projects the actual software is not available (or it is not clear how t
 - [Boundary element, Boundary integral methods](#bie)
 - [Mesh free methods](#mfe)
 - [Virtual element methods](#vem)
+- [Multi-method packages](#mm)
 - [Non-classical methods](#nonclassical)
 - [Solvers, sparse and hierarchical matrix libraries](#solvers)
 - [Mesh and Grid Generation](#grids)
@@ -209,6 +210,13 @@ Tools for FEM and VEM (Virtual Element) methods.
 ### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
 
 See information above for the finite element methods.
+
+## <a name="mm">Multi-method packages
+
+### [https://github.com/climate-machine/CLIMA](https://github.com/climate-machine/CLIMA)
+
+The Climate Machine is a new Earth system model that leverages recent advances in the computational and data sciences to learn directly from a wealth of Earth observations from space and the ground.
+
 
 ## <a name="nonclassical">Non-classical methods
 
