@@ -52,6 +52,10 @@ Finite difference method, unregistered.
 
 A library of classical summation-by-parts (SBP) operators used in finite difference methods to get provably stable semidiscretisations, paying special attention to boundary conditions.
 
+### [https://github.com/matthieugomez/EconPDEs.jl](https://github.com/matthieugomez/EconPDEs.jl)
+This package  solves (systems of) nonlinear ODEs/PDEs arising in economic models (i.e. parabolic/elliptic PDEs arising from HJB equations)
+The underlying algorithm is based on a combination of upwinding and fully implicit time stepping, using sparse Jacobians.
+
 ## <a name="fem"></a>Finite  element methods
 
 ### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
@@ -155,6 +159,10 @@ Solver for coupled nonlinear partial differential equations based on the Voronoi
 
 Finite volume tool for the transport phenomena in chemical and petroleum engineering and similar fields (linear transient advection-diffusion PDE).
 Updated for Julia 1.0.
+
+### [https://github.com/climate-machine/Oceananigans.jl](https://github.com/climate-machine/Oceananigans.jl)
+
+Incompressible fluid flow solver written in Julia that can be run in 1-3 dimensions on CPUs and GPUs. It is designed to solve the rotating Boussinesq equations used in non-hydrostatic ocean modeling but can be used to solve for any incompressible flow.
 
 ## <a name="sem"></a>Spectral  element methods
 
@@ -330,12 +338,9 @@ Efficient computations with symmetric and non-symmetric tensors with support for
 
 ## Not categorized yet
 
-https://github.com/matthieugomez/EconPDEs.jl
-
 https://github.com/JerryLingjieMei/NonlinearPDE
 https://github.com/DanPSilva/Partial-Differential-Equations
 
 https://github.com/FourierFlows/FourierFlows.jl
 https://github.com/PtFEM/PtFEM.jl
 https://github.com/samuelpowell/LibTOAST.jl
-
