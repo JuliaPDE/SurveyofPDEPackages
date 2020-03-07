@@ -39,9 +39,18 @@ Benchmarking a simple PDE integration algorithm in Julia and other languages.
 Fourier approach.
 
 ## <a name="fdm"></a>Finite difference methods
+
 ### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
 
 Automatic construction of arbitrary order finite difference stencils on regular and irregular grids. Utilizes stencil compilers and matrix-free implementations for low memory high efficiency implementation.
+
+### [https://github.com/ooreilly/sbp.jl](https://github.com/ooreilly/sbp.jl)
+
+Finite difference method, unregistered.
+
+### [https://github.com/ranocha/SummationByPartsOperators.jl](https://github.com/ranocha/SummationByPartsOperators.jl)
+
+A library of classical summation-by-parts (SBP) operators used in finite difference methods to get provably stable semidiscretisations, paying special attention to boundary conditions.
 
 ## <a name="fem"></a>Finite  element methods
 
@@ -194,19 +203,19 @@ A library for solving (partial) differential equations with neural networks. Cur
 
 ## <a name="solvers">Solvers, sparse and hierarchical matrix libraries
   
-### https://github.com/JuliaDiffEq/DifferentialEquations.jl
+### [https://github.com/JuliaDiffEq/DifferentialEquations.jl](https://github.com/JuliaDiffEq/DifferentialEquations.jl)
 
 A package for solving time-stepping of differential equations which result from PDE discretizations. Heavy emphasis on large-scale stiff differential equations with sparse Jacobians, i.e. DEs from PDEs. See [the stiff ODE tutorial](https://docs.juliadiffeq.org/dev/tutorials/advanced_ode_example/) for more details.
 
-### https://github.com/JuliaParallel/PETSc.jl
+### [https://github.com/JuliaParallel/PETSc.jl](https://github.com/JuliaParallel/PETSc.jl)
 
 This package provides a high level interface for PETSc.
 
-### https://github.com/OptimalDesignLab/PETSc2.jl
+### [https://github.com/OptimalDesignLab/PETSc2.jl](https://github.com/OptimalDesignLab/PETSc2.jl)
 
 This package provides thin wrappers for PETSc, as well as a few convenience functions that take advantage of multiple dispatch.
 
-### https://github.com/ranocha/PositiveFactorizations.jl
+### [https://github.com/timholy/PositiveFactorizations.jl](https://github.com/timholy/PositiveFactorizations.jl)
 
 PositiveFactorizations is a package for computing a positive definite matrix decomposition (factorization) from an arbitrary symmetric input. The motivating application is optimization.
 
@@ -325,7 +334,7 @@ https://github.com/matthieugomez/EconPDEs.jl
 
 https://github.com/JerryLingjieMei/NonlinearPDE
 https://github.com/DanPSilva/Partial-Differential-Equations
-https://github.com/ooreilly/sbp.jl
+
 https://github.com/FourierFlows/FourierFlows.jl
 https://github.com/PtFEM/PtFEM.jl
 https://github.com/samuelpowell/LibTOAST.jl
