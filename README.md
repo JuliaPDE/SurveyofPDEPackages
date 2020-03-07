@@ -60,7 +60,9 @@ Maintains an overview page with documentation at
 
 Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X)
 
-### [https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
+### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
+
+Provide a modern and unified simulation platform for finite element methods, meshfree Galerkin methods and virtual element methods. The platform is being built over three Julia(*) independent libraries: FEMLia (for finite elements), MEMLia (for meshfree methods) and VEMLia (for virtual elements).
 
 ### [https://github.com/pjabardo/Makhno.jl](https://github.com/pjabardo/Makhno.jl)
 
@@ -158,12 +160,19 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 
 ### [www.researchgate.net..._Programming_the_material_point_method_in_Julia](https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia)
 
+### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
+
+See information above for the finite element methods.
 
 ## <a name="vem">Virtual element methods
 
 ### [https://github.com/Paulms/jFEMTools.jl](https://github.com/Paulms/jFEMTools.jl)
 
 Tools for FEM and VEM (Virtual Element) methods.
+
+### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
+
+See information above for the finite element methods.
 
 ## <a name="nonclassical">Non-classical methods
 
