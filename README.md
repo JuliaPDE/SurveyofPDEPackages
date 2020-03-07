@@ -160,6 +160,10 @@ Solver for coupled nonlinear partial differential equations based on the Voronoi
 Finite volume tool for the transport phenomena in chemical and petroleum engineering and similar fields (linear transient advection-diffusion PDE).
 Updated for Julia 1.0.
 
+### [https://github.com/climate-machine/Oceananigans.jl](https://github.com/climate-machine/Oceananigans.jl)
+
+Incompressible fluid flow solver written in Julia that can be run in 1-3 dimensions on CPUs and GPUs. It is designed to solve the rotating Boussinesq equations used in non-hydrostatic ocean modeling but can be used to solve for any incompressible flow.
+
 ## <a name="sem"></a>Spectral  element methods
 
 ### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
@@ -340,4 +344,3 @@ https://github.com/DanPSilva/Partial-Differential-Equations
 https://github.com/FourierFlows/FourierFlows.jl
 https://github.com/PtFEM/PtFEM.jl
 https://github.com/samuelpowell/LibTOAST.jl
-
