@@ -9,6 +9,7 @@ For some projects the actual software is not available (or it is not clear how t
 ## Table of contents
 
 - [General PDE approximation methods](#general)
+- [Transform methods](#tm)
 - [Finite difference methods](#fdm)
 - [Finite element methods](#femfvm)
 - [Finite volume methods](#femfvm)
@@ -33,10 +34,16 @@ ApproxFun is a package for approximating functions. It is in a similar vein to t
 
 JuliaDiffEq is a Github organization created to unify the packages for solving differential equations in Julia. By providing a diverse set of tools with a common interface, we provide a modular, easily-extendable, and highly performant ecosystem for solving various forms of differential equations.
 
+## <a name="tm"></a>Transform methods
+
 ### [https://github.com/johnfgibson/julia-pde-benchmark](https://github.com/johnfgibson/julia-pde-benchmark)
 
 Benchmarking a simple PDE integration algorithm in Julia and other languages.
 Fourier approach.
+
+### [https://github.com//JuliaMolSim/DFTK.jl/](https://github.com//JuliaMolSim/DFTK.jl/)
+
+The density-functional toolkit is a library of Julia routines for experimentation with plane-wave-based density-functional theory (DFT): it is an engine to solve nonlinear eigenvector equations discretized in a Fourier basis, applied to the Kohn-Sham equations of electronic structure theory (as well as a couple of others).
 
 ## <a name="fdm"></a>Finite difference methods
 
