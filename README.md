@@ -52,6 +52,10 @@ Finite difference method, unregistered.
 
 A library of classical summation-by-parts (SBP) operators used in finite difference methods to get provably stable semidiscretisations, paying special attention to boundary conditions.
 
+### [https://github.com/matthieugomez/EconPDEs.jl](https://github.com/matthieugomez/EconPDEs.jl)
+This package  solves (systems of) nonlinear ODEs/PDEs arising in economic models (i.e. parabolic/elliptic PDEs arising from HJB equations)
+The underlying algorithm is based on a combination of upwinding and fully implicit time stepping, using sparse Jacobians.
+
 ## <a name="fem"></a>Finite  element methods
 
 ### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
@@ -329,8 +333,6 @@ RHEOS, an abbreviation of Rheology Open Source, is a software package written in
 Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
 
 ## Not categorized yet
-
-https://github.com/matthieugomez/EconPDEs.jl
 
 https://github.com/JerryLingjieMei/NonlinearPDE
 https://github.com/DanPSilva/Partial-Differential-Equations
