@@ -120,6 +120,14 @@ Partial Differential Equations with Julia, with FEM.
 
 CFD Julia is a programming module developed for senior undergraduate or graduate-level coursework which teaches the foundations of computational fluid dynamics (CFD). The paper explains various concepts related to spatial and temporal discretization, explicit and implicit numerical schemes, multi-step numerical schemes, higher-order shock-capturing numerical methods, and iterative solvers in CFD. 
 
+### [https://github.com/Paulms/HDiscontinuousGalerkin.jl](https://github.com/Paulms/HDiscontinuousGalerkin.jl)
+
+A finite element toolbox, with focus on Hybridizable Discontinuous Galerkin (at the moment it only works in 2D).
+
+### [https://github.com/ABAtanasov/GalerkinSparseGrids.jl](https://github.com/ABAtanasov/GalerkinSparseGrids.jl)
+
+For solving hyperbolic partial differential equations in higher dimensions, where the curse of dimensionality restricts the computational feasibility of discretization of space using regular grid methods. Instead, the employ  sparse grid construction is employed.
+
 ## <a name="fvm"></a>Finite  volume methods
 
 ### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
@@ -306,4 +314,15 @@ RHEOS, an abbreviation of Rheology Open Source, is a software package written in
 ### [https://github.com/KristofferC/Tensors.jl](https://github.com/KristofferC/Tensors.jl)
 
 Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
+
+## Not categorized yet
+
+https://github.com/matthieugomez/EconPDEs.jl
+
+https://github.com/JerryLingjieMei/NonlinearPDE
+https://github.com/DanPSilva/Partial-Differential-Equations
+https://github.com/ooreilly/sbp.jl
+https://github.com/FourierFlows/FourierFlows.jl
+https://github.com/PtFEM/PtFEM.jl
+https://github.com/samuelpowell/LibTOAST.jl
 
