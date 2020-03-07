@@ -320,6 +320,10 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 ### https://github.com/JuliaGeometry/VoronoiDelaunay.jl
 
+### [https://github.com/krcools/FMMTrees.jl](https://github.com/krcools/FMMTrees.jl)
+
+Tree data structures for H(2), hierarchical matrices, and FMM-like algorithms (fast multiple methods).
+
 ## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
