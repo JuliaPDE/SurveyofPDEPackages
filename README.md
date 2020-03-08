@@ -297,6 +297,20 @@ This  package aims at solving equations F(u,λ)=0 where λ∈ℝ starting from a
 ### [https://github.com/Jutho/KrylovKit.jl](https://github.com/Jutho/KrylovKit.jl)
 A Julia package collecting a number of Krylov-based algorithms for linear problems, singular value and eigenvalue problems and the application of functions of linear maps or operators to vectors.
 
+### [https://github.com/JuliaSmoothOptimizers/LinearOperators.jl](https://github.com/JuliaSmoothOptimizers/LinearOperators.jl)
+Operators behave like matrices, but are defined by their effect when applied to a vector. They can be transposed, conjugated, or combined with other operators cheaply. The costly operation is deferred until multiplied with a vector.
+
+### [https://github.com/Jutho/LinearMaps.jl](https://github.com/Jutho/LinearMaps.jl)
+A Julia package for defining and working with linear maps, also known as linear transformations or linear operators acting on vectors. The only requirement for a LinearMap is that it can act on a vector (by multiplication) efficiently.
+
+### [https://github.com/kul-forbes/AbstractOperators.jl](https://github.com/kul-forbes/AbstractOperators.jl)
+
+Abstract operators extend the syntax typically used for matrices to linear mappings of arbitrary dimensions and nonlinear functions. Unlike matrices however, abstract operators apply the mappings with specific efficient algorithms that minimize memory requirements. This is particularly useful in iterative algorithms and in first order large-scale optimization algorithms.
+
+### [https://github.com/JuliaSmoothOptimizers/MUMPS.jl](https://github.com/JuliaSmoothOptimizers/MUMPS.jl)
+
+MUMPS is a library for the solution of large linear systems using a factorization. Structure can be exploited, such as symmetry, or symmetry and definiteness. The factorization and solve phases can be performed in parallel.
+
 ## <a name="geo">Geometry and topology
 
 ### [https://github.com/JuliaNLSolvers/Manifolds.jl](https://github.com/JuliaNLSolvers/Manifolds.jl)
@@ -369,6 +383,14 @@ Efficient computations with symmetric and non-symmetric tensors with support for
 ### [https://github.com/Jutho/TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl)
 
 Fast tensor operations using a convenient Einstein index notation.
+
+### [https://github.com/lanaperisa/TensorToolbox.jl](https://github.com/lanaperisa/TensorToolbox.jl)
+
+Julia package for tensors (dense tensors,
+Tucker format,
+Kruskal (CP) format,
+Hierarchical Tucker format,
+Tensor Train format).
 
 ## Not categorized yet
 
