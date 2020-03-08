@@ -290,6 +290,13 @@ Solve sparse linear systems using Algebraic Multigrid (AMG). This works especial
 
 This package aims to provide state-of-the-art algorithms to solve the nonlinear eigenvalue problem. This currently includes (but is not restricted to) Newton-type methods, Subspace methods, Krylov methods, contour integral methods, block methods, companion matrix approaches. Problem transformation techniques such as scaling, shifting, deflating are also natively supported by the package.
 
+### [https://github.com/rveltz/PseudoArcLengthContinuation.jl](https://github.com/rveltz/PseudoArcLengthContinuation.jl)
+
+This  package aims at solving equations F(u,λ)=0 where λ∈ℝ starting from an initial guess (u0,λ0). It relies on the pseudo arclength continuation algorithm which provides a predictor (u1,λ1) from (u0,λ0). A Newton method is then used to correct this predictor. The focus is on large scale nonlinear problems and multiple hardwares, and the goal is to use Matrix Free methods on a GPU (see PDE example and Periodic orbit example) or on a cluster to solve non linear PDE, nonlocal problems, compute sub-manifolds and so on.
+
+### [https://github.com/Jutho/KrylovKit.jl](https://github.com/Jutho/KrylovKit.jl)
+A Julia package collecting a number of Krylov-based algorithms for linear problems, singular value and eigenvalue problems and the application of functions of linear maps or operators to vectors.
+
 ## <a name="geo">Geometry and topology
 
 ### [https://github.com/JuliaNLSolvers/Manifolds.jl](https://github.com/JuliaNLSolvers/Manifolds.jl)
@@ -319,6 +326,10 @@ The TetGen.jl package is a Julia wrapper for the C++ project TetGen. This wrappe
 Geometry types and algorithms for computational science. Meshes, charts, and neighborhoods.
 
 ### https://github.com/JuliaGeometry/VoronoiDelaunay.jl
+
+### [https://github.com/krcools/FMMTrees.jl](https://github.com/krcools/FMMTrees.jl)
+
+Tree data structures for H(2), hierarchical matrices, and FMM-like algorithms (fast multiple methods).
 
 ## <a name="post"></a>Postprocessing, visualization
 
@@ -350,6 +361,10 @@ RHEOS, an abbreviation of Rheology Open Source, is a software package written in
 ### [https://github.com/KristofferC/Tensors.jl](https://github.com/KristofferC/Tensors.jl)
 
 Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
+
+### [https://github.com/Jutho/TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl)
+
+Fast tensor operations using a convenient Einstein index notation.
 
 ## Not categorized yet
 
