@@ -362,6 +362,10 @@ RHEOS, an abbreviation of Rheology Open Source, is a software package written in
 
 Efficient computations with symmetric and non-symmetric tensors with support for automatic differentiation.
 
+### [https://github.com/Jutho/TensorOperations.jl](https://github.com/Jutho/TensorOperations.jl)
+
+Fast tensor operations using a convenient Einstein index notation.
+
 ## Not categorized yet
 
 https://github.com/JerryLingjieMei/NonlinearPDE
