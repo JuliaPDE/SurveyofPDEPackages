@@ -331,6 +331,10 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 Tree data structures for H(2), hierarchical matrices, and FMM-like algorithms (fast multiple methods).
 
+### [https://github.com/JuliaGeometry/DistMesh.jl](https://github.com/JuliaGeometry/DistMesh.jl)
+
+Tetrahedral mesh refinement on signed distance/implicit functions or level sets using TetGen.
+
 ## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
