@@ -343,7 +343,7 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 ### [https://github.com/gridap/MiniQhull.jl](https://github.com/gridap/MiniQhull.jl)
 
-A simple Julia wrapper around Qhull to compute Delaunay triangulations in arbitrary dimensions. This is a direct wrapper using `ccall` (in constrast to `QHull.jl` that is a wrapper around a python wraper of Qhull.)
+A simple Julia wrapper around Qhull to compute Delaunay triangulations in arbitrary dimensions. This is a direct wrapper using `ccall` (in constrast to `QHull.jl` that is a wrapper around a python wrapper of Qhull.)
 
 ### [https://github.com/krcools/FMMTrees.jl](https://github.com/krcools/FMMTrees.jl)
 
