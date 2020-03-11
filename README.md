@@ -46,6 +46,9 @@ Fourier approach.
 
 The density-functional toolkit is a library of Julia routines for experimentation with plane-wave-based density-functional theory (DFT): it is an engine to solve nonlinear eigenvector equations discretized in a Fourier basis, applied to the Kohn-Sham equations of electronic structure theory (as well as a couple of others).
 
+### [https://github.com/FourierFlows/FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl)
+Tools for solving partial differential equations on periodic domains using Fourier-based pseudospectral methods.
+
 ## <a name="fdm"></a>Finite difference methods
 
 ### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
@@ -63,6 +66,10 @@ A library of classical summation-by-parts (SBP) operators used in finite differe
 ### [https://github.com/matthieugomez/EconPDEs.jl](https://github.com/matthieugomez/EconPDEs.jl)
 This package  solves (systems of) nonlinear ODEs/PDEs arising in economic models (i.e. parabolic/elliptic PDEs arising from HJB equations)
 The underlying algorithm is based on a combination of upwinding and fully implicit time stepping, using sparse Jacobians.
+
+### [https://github.com/DanPSilva/Partial-Differential-Equations](https://github.com/DanPSilva/Partial-Differential-Equations)
+
+Solving partial differential equations using finite difference methods on Julia.
 
 ## <a name="fem"></a>Finite  element methods
 
@@ -152,6 +159,13 @@ A finite element toolbox, with focus on Hybridizable Discontinuous Galerkin (at 
 ### [https://github.com/ABAtanasov/GalerkinSparseGrids.jl](https://github.com/ABAtanasov/GalerkinSparseGrids.jl)
 
 For solving hyperbolic partial differential equations in higher dimensions, where the curse of dimensionality restricts the computational feasibility of discretization of space using regular grid methods. Instead, the employ  sparse grid construction is employed.
+
+### [https://github.com/samuelpowell/LibTOAST.jl](https://github.com/samuelpowell/LibTOAST.jl)
+LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-to-end solution for forward modelling and image reconstruction in Diffuse Optical Tomography).
+
+### [https://github.com/PtFEM/PtFEM.jl](https://github.com/PtFEM/PtFEM.jl)
+
+Trograms in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts. 
 
 ## <a name="fvm"></a>Finite  volume methods
 
@@ -311,6 +325,19 @@ Abstract operators extend the syntax typically used for matrices to linear mappi
 
 MUMPS is a library for the solution of large linear systems using a factorization. Structure can be exploited, such as symmetry, or symmetry and definiteness. The factorization and solve phases can be performed in parallel.
 
+### [https://github.com/JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl)
+
+The Pardiso.jl package provides an interface for using PARDISO 6.0 and Intel MKL PARDISO from the Julia language. 
+
+### [https://github.com/JuliaSparse/Metis.jl](https://github.com/JuliaSparse/Metis.jl)
+
+Metis.jl is a Julia wrapper to the Metis library which is a library for partitioning unstructured graphs, partitioning meshes, and computing fill-reducing orderings of sparse matrices.
+
+### [https://github.com/JuliaMath/IterativeSolvers.jl](https://github.com/JuliaMath/IterativeSolvers.jl)
+
+IterativeSolvers is a Julia package that provides iterative algorithms for solving linear systems, eigensystems, and singular value problems.
+
+
 ## <a name="geo">Geometry and topology
 
 ### [https://github.com/JuliaNLSolvers/Manifolds.jl](https://github.com/JuliaNLSolvers/Manifolds.jl)
@@ -396,11 +423,6 @@ Kruskal (CP) format,
 Hierarchical Tucker format,
 Tensor Train format).
 
-## Not categorized yet
+### [https://github.com/JerryLingjieMei/NonlinearPDE](https://github.com/JerryLingjieMei/NonlinearPDE)
 
-https://github.com/JerryLingjieMei/NonlinearPDE
-https://github.com/DanPSilva/Partial-Differential-Equations
-
-https://github.com/FourierFlows/FourierFlows.jl
-https://github.com/PtFEM/PtFEM.jl
-https://github.com/samuelpowell/LibTOAST.jl
+Solution of a nonlinear elliptic PDE with multi-grid.
