@@ -296,13 +296,14 @@ Tree data structures for fast multipole methods and H-matrices.
 
 ### [https://github.com/JuliaLinearAlgebra/SuiteSparse.jl](https://github.com/JuliaLinearAlgebra/SuiteSparse.jl)
 
-
 SuiteSparse wrappers in Julia.
 
 ### [https://github.com/JuliaLinearAlgebra/Arpack.jl](https://github.com/JuliaLinearAlgebra/Arpack.jl)
+
 Julia wrapper for the arpack library designed to solve large scale eigenvalue problems. ARPACK is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 
 ### [https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl](https://github.com/JuliaLinearAlgebra/AlgebraicMultigrid.jl)
+
 Solve sparse linear systems using Algebraic Multigrid (AMG). This works especially well for symmetric positive definite matrices.
 
 ### [https://github.com/nep-pack/NonlinearEigenproblems.jl](https://github.com/nep-pack/NonlinearEigenproblems.jl)
@@ -342,6 +343,9 @@ Metis.jl is a Julia wrapper to the Metis library which is a library for partitio
 
 IterativeSolvers is a Julia package that provides iterative algorithms for solving linear systems, eigensystems, and singular value problems.
 
+### [https://github.com/mohamed82008/Preconditioners.jl](https://github.com/mohamed82008/Preconditioners.jl)
+
+Selected pre-conditioners for iterative  solvers of coupled linear algebraic equations. Including AMG.
 
 ## <a name="geo">Geometry and topology
 
@@ -390,6 +394,10 @@ Tetrahedral mesh refinement on signed distance/implicit functions or level sets 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
 
 This module allows to write VTK XML files, that can be visualised for example with ParaView. Seems pretty complete, writes compressed files.
+
+### [https://github.com/mohamed82008/VTKDataTypes.jl](https://github.com/mohamed82008/VTKDataTypes.jl)
+
+VTKDataTypes.jl presents a Julia type system for representing and manipulating VTK data natively in Julia.
 
 ## <a name="hpc"></a>HPC, Parallel processing
 
