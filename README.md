@@ -23,6 +23,7 @@ For some projects the actual software is not available (or it is not clear how t
 - [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
 - [HPC, Parallel processing](#hpc)
+- [Optimization](#opt)
 - [Miscellanea](#misc)
 
 ## <a name="general"></a>General PDE approximation methods
@@ -165,7 +166,11 @@ LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-
 
 ### [https://github.com/PtFEM/PtFEM.jl](https://github.com/PtFEM/PtFEM.jl)
 
-Trograms in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts. 
+Programs in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts. 
+
+### [https://github.com/jlchan/JuliaDG](https://github.com/jlchan/JuliaDG)
+A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements.
+
 
 ## <a name="fvm"></a>Finite  volume methods
 
@@ -397,6 +402,12 @@ This provides Julia interface to the Message Passing Interface (MPI), roughly in
 This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API. 
 
 
+## <a name="opt"></a>Optimization
+
+### [https://github.com/mohamed82008/TopOpt.jl](https://github.com/mohamed82008/TopOpt.jl)
+
+A WIP topology optimization package in pure Julia.
+
 ## <a name="misc"></a>Miscellanea
 
 ### [https://github.com/avigliotti/AD4SM.jl](https://github.com/avigliotti/AD4SM.jl)
@@ -426,3 +437,4 @@ Tensor Train format).
 ### [https://github.com/JerryLingjieMei/NonlinearPDE](https://github.com/JerryLingjieMei/NonlinearPDE)
 
 Solution of a nonlinear elliptic PDE with multi-grid.
+
