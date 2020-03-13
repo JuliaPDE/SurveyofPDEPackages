@@ -15,7 +15,7 @@ For some projects the actual software is not available (or it is not clear how t
 - [Finite volume methods](#femfvm)
 - [Spectral element methods](#sem)
 - [Boundary element, Boundary integral methods](#bie)
-- [Mesh free methods](#mfe)
+- [Mesh free methods and particle methods](#mfe)
 - [Virtual element methods](#vem)
 - [Multi-method packages](#mm)
 - [Non-classical methods](#nonclassical)
@@ -95,7 +95,7 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 
 ### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
 
-Provide a modern and unified simulation platform for finite element methods, meshfree Galerkin methods and virtual element methods. The platform is being built over three Julia(*) independent libraries: FEMLia (for finite elements), MEMLia (for meshfree methods) and VEMLia (for virtual elements).
+Provide a modern and unified simulation platform for finite element methods, meshfree Galerkin methods and virtual element methods. The platform is being built over three Julia independent libraries: FEMLia (for finite elements), MEMLia (for meshfree methods) and VEMLia (for virtual elements).
 
 ### [https://github.com/pjabardo/Makhno.jl](https://github.com/pjabardo/Makhno.jl)
 
@@ -172,6 +172,11 @@ Programs in chapters 4, 5 and early sections of 6 as described in "Programming t
 A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements.
 
 
+### [https://github.com/pseastham/eFEMpart](https://github.com/pseastham/eFEMpart)
+
+Finite Element code in the Julia language focused on complex fluid-dynamic and porous-media applications, with the possibility of including a particle simulator in the framework of the discrete element method. The 'eFEM' component allows the use of Finite Elements discretizations to solve common problems in fluid dynamics, and the 'part' refers to mesh-free particle methods (discrete element method) primarily aimed at granular-media simulations where continuum constitutive laws are unavailable.
+
+
 ## <a name="fvm"></a>Finite  volume methods
 
 ### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
@@ -211,7 +216,7 @@ This package contains common basis functions and assembly routines for the imple
 
 Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X) Also listed as a finite element toolkit.
 
-## <a name="mfe">Mesh free methods
+## <a name="mfe">Mesh free methods and particle methods
 
 
 ### [www.researchgate.net..._Programming_the_material_point_method_in_Julia](https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia)
@@ -229,6 +234,10 @@ Tools for FEM and VEM (Virtual Element) methods.
 ### [researchgate.net/.../GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods](https://www.researchgate.net/project/GaLerKia-a-unified-Julia-implementation-of-mesh-and-meshfree-based-Galerkin-methods)
 
 See information above for the finite element methods.
+
+### [https://github.com/pseastham/eFEMpart](https://github.com/pseastham/eFEMpart)
+
+Listed above under finite elements as well. Finite Element code in the Julia language focused on complex fluid-dynamic and porous-media applications, with the possibility of including a particle simulator in the framework of the discrete element method. The 'eFEM' component allows the use of Finite Elements discretizations to solve common problems in fluid dynamics, and the 'part' refers to mesh-free particle methods (discrete element method) primarily aimed at granular-media simulations where continuum constitutive laws are unavailable.
 
 ## <a name="mm">Multi-method packages
 
