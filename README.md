@@ -76,7 +76,7 @@ Solving partial differential equations using finite difference methods on Julia.
 
 ### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
 
-FEniCS.jl is a wrapper for the FEniCS library for finite element discretizations of PDEs. 
+FEniCS.jl is a wrapper for the FEniCS library for finite element discretizations of PDEs.
 
 ### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
 
@@ -89,7 +89,7 @@ The JuliaFEM project develops open-source software for reliable, scalable, distr
 Maintains an overview page with documentation at
 [http://www.juliafem.org/](http://www.juliafem.org/).
 
-### NESSie.jl 
+### NESSie.jl
 
 Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X)
 
@@ -115,7 +115,7 @@ Also listed as a boundary-element code. Also see [TeaTalk.jl](https://github.com
 ### [https://github.com/ga96tik/SauterSchwabQuadrature.jl](https://github.com/ga96tik/SauterSchwabQuadrature.jl)
 
 
-### [https://github.com/ranocha/HyperbolicDiffEq.jl](https://github.com/ranocha/HyperbolicDiffEq.jl) 
+### [https://github.com/ranocha/HyperbolicDiffEq.jl](https://github.com/ranocha/HyperbolicDiffEq.jl)
 
 Active with updates for Julia 1.3.
 
@@ -134,12 +134,12 @@ FinEtools is a package for basic operations on finite element meshes. It also su
 
 ### https://github.com/rigetti/DiscretePDEs.jl
 
-DiscretePDEs.jl is a package for discretizing partial differential equations using DiscreteExteriorCalculus.jl. 
+DiscretePDEs.jl is a package for discretizing partial differential equations using DiscreteExteriorCalculus.jl.
 In addition to functionality for discretizing arbitrary PDEs, DiscretePDEs.jl also has functionality specifically for modeling electromagnetism.
 
 ### [https://github.com/OptimalDesignLab/PDESolver.jl](https://github.com/OptimalDesignLab/PDESolver.jl)
 
-PDESolver is a multi-physics solver primarily focused on Computational Fluid Dynamics. 
+PDESolver is a multi-physics solver primarily focused on Computational Fluid Dynamics.
 
 ### https://github.com/ZenanH/juSFEM
 Smoothed FEM.
@@ -151,7 +151,7 @@ Partial Differential Equations with Julia, with FEM.
 
 ### [www.researchgate.net/..._CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics](https://www.researchgate.net/publication/335398490_CFD_Julia_A_Learning_Module_Structuring_an_Introductory_Course_on_Computational_Fluid_Dynamics)
 
-CFD Julia is a programming module developed for senior undergraduate or graduate-level coursework which teaches the foundations of computational fluid dynamics (CFD). The paper explains various concepts related to spatial and temporal discretization, explicit and implicit numerical schemes, multi-step numerical schemes, higher-order shock-capturing numerical methods, and iterative solvers in CFD. 
+CFD Julia is a programming module developed for senior undergraduate or graduate-level coursework which teaches the foundations of computational fluid dynamics (CFD). The paper explains various concepts related to spatial and temporal discretization, explicit and implicit numerical schemes, multi-step numerical schemes, higher-order shock-capturing numerical methods, and iterative solvers in CFD.
 
 ### [https://github.com/Paulms/HDiscontinuousGalerkin.jl](https://github.com/Paulms/HDiscontinuousGalerkin.jl)
 
@@ -166,7 +166,7 @@ LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-
 
 ### [https://github.com/PtFEM/PtFEM.jl](https://github.com/PtFEM/PtFEM.jl)
 
-Programs in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts. 
+Programs in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts.
 
 ### [https://github.com/jlchan/JuliaDG](https://github.com/jlchan/JuliaDG)
 A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements.
@@ -207,7 +207,7 @@ A library of functions for polynomial bases used in spectral element methods.
 
 This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
 
-### NESSie.jl 
+### NESSie.jl
 
 Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X) Also listed as a finite element toolkit.
 
@@ -244,7 +244,7 @@ The Climate Machine is a new Earth system model that leverages recent advances i
 A library for solving (partial) differential equations with neural networks. Currently supports parabolic differential equations, though a generic NN-based PDE solver is in progress. Can solve very high dimensional (hundred or thousand) partial differential equations through [universal differential equation](https://arxiv.org/abs/2001.04385) approaches.
 
 ## <a name="solvers">Solvers, sparse and hierarchical matrix libraries
-  
+
 ### [https://github.com/JuliaDiffEq/DifferentialEquations.jl](https://github.com/JuliaDiffEq/DifferentialEquations.jl)
 
 A package for solving time-stepping of differential equations which result from PDE discretizations. Heavy emphasis on large-scale stiff differential equations with sparse Jacobians, i.e. DEs from PDEs. See [the stiff ODE tutorial](https://docs.juliadiffeq.org/dev/tutorials/advanced_ode_example/) for more details.
@@ -263,7 +263,7 @@ PositiveFactorizations is a package for computing a positive definite matrix dec
 
 ### [https://github.com/JuliaDiff/FiniteDiff.jl](https://github.com/JuliaDiff/FiniteDiff.jl)
 
-This package is for calculating derivatives, gradients, Jacobians, Hessians, etc. numerically. 
+This package is for calculating derivatives, gradients, Jacobians, Hessians, etc. numerically.
 
 ### [https://github.com/JuliaDiff/SparseDiffTools.jl](https://github.com/JuliaDiff/SparseDiffTools.jl)
 
@@ -275,7 +275,7 @@ This package provides a flexible framework for hierarchical matrices in Julia.
 
 ### [https://github.com/JuliaMatrices/LowRankApprox.jl](https://github.com/JuliaMatrices/LowRankApprox.jl)
 
-This Julia package provides fast low-rank approximation algorithms for BLAS/LAPACK-compatible matrices based on some of the latest technology in adaptive randomized matrix sketching. 
+This Julia package provides fast low-rank approximation algorithms for BLAS/LAPACK-compatible matrices based on some of the latest technology in adaptive randomized matrix sketching.
 
 ### [https://github.com/JuliaMatrices/LazyBandedMatrices.jl](https://github.com/JuliaMatrices/LazyBandedMatrices.jl)
 
@@ -333,7 +333,7 @@ MUMPS is a library for the solution of large linear systems using a factorizatio
 
 ### [https://github.com/JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl)
 
-The Pardiso.jl package provides an interface for using PARDISO 6.0 and Intel MKL PARDISO from the Julia language. 
+The Pardiso.jl package provides an interface for using PARDISO 6.0 and Intel MKL PARDISO from the Julia language.
 
 ### [https://github.com/JuliaSparse/Metis.jl](https://github.com/JuliaSparse/Metis.jl)
 
@@ -357,6 +357,9 @@ Manifolds.jl aims to provide both a unified interface to define and use manifold
 
 The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
 
+### [https://github.com/mewertd2/DiscreteDifferentialGeometry.jl](https://github.com/mewertd2/DiscreteDifferentialGeometry.jl)
+The DiscreteDifferentialGeometry Julia package defines types and methods to implement Discrete Differential Geometry.
+
 ## <a name="grids">Mesh and Grid Generation
 
 ### [https://github.com/JuliaFEM/Gmsh.jl](https://github.com/JuliaFEM/Gmsh.jl)
@@ -365,7 +368,7 @@ Gmsh.jl contains API for Gmsh: a three-dimensional finite element mesh generator
 
 ### [https://github.com/JuliaGeometry/Triangulate.jl](https://github.com/JuliaGeometry/Triangulate.jl)
 
-Julia wrapper for Johnathan Richard Shewchuk's Triangle mesh generator. 
+Julia wrapper for Johnathan Richard Shewchuk's Triangle mesh generator.
 
 ### [https://github.com/JuliaGeometry/TetGen.jl](https://github.com/JuliaGeometry/TetGen.jl)
 
@@ -407,7 +410,7 @@ This provides Julia interface to the Message Passing Interface (MPI), roughly in
 
 ### [https://github.com/OptimalDesignLab/PumiInterface.jl](https://github.com/OptimalDesignLab/PumiInterface.jl)
 
-This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API. 
+This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API.
 
 
 ## <a name="opt"></a>Optimization
@@ -445,4 +448,3 @@ Tensor Train format).
 ### [https://github.com/JerryLingjieMei/NonlinearPDE](https://github.com/JerryLingjieMei/NonlinearPDE)
 
 Solution of a nonlinear elliptic PDE with multi-grid.
-
