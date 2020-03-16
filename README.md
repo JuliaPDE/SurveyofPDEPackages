@@ -401,6 +401,10 @@ Tree data structures for H(2), hierarchical matrices, and FMM-like algorithms (f
 
 Tetrahedral mesh refinement on signed distance/implicit functions or level sets using TetGen.
 
+### [https://github.com/digitaldomain/HalfEdges.jl](https://github.com/digitaldomain/HalfEdges.jl)
+
+Halfedge data structure for navigating and querying polygonal meshes.
+
 ## <a name="post"></a>Postprocessing, visualization
 
 ### [https://github.com/jipolanco/WriteVTK.jl](https://github.com/jipolanco/WriteVTK.jl).
