@@ -20,6 +20,7 @@ For some projects the actual software is not available (or it is not clear how t
 - [Multi-method packages](#mm)
 - [Non-classical methods](#nonclassical)
 - [Solvers, sparse and hierarchical matrix libraries](#solvers)
+- [Geometry and topology](#geo)
 - [Mesh and Grid Generation](#grids)
 - [Postprocessing, visualization](#post)
 - [HPC, Parallel processing](#hpc)
@@ -206,7 +207,7 @@ Not much activity.
 
 A library of functions for polynomial bases used in spectral element methods.
 
-## <a name="bie"></a>Boundary element, Boundary integral methods
+## <a name="bie"></a>Boundary element, boundary integral methods
 
 ### [https://github.com/krcools/BEAST.jl](https://github.com/krcools/BEAST.jl)
 
@@ -404,6 +405,11 @@ Tetrahedral mesh refinement on signed distance/implicit functions or level sets 
 ### [https://github.com/digitaldomain/HalfEdges.jl](https://github.com/digitaldomain/HalfEdges.jl)
 
 Halfedge data structure for navigating and querying polygonal meshes.
+
+### [https://github.com/PetrKryslUCSD/MeshCore.jl](https://github.com/PetrKryslUCSD/MeshCore.jl)
+
+Small package for the topology of meshes for the Finite Element Methods (FEM). All essential topological incidence relations are provided: see the guide. The library provides efficient storage of coordinates and connectivities in static arrays for speed of access.
+
 
 ## <a name="post"></a>Postprocessing, visualization
 
