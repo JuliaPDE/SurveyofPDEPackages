@@ -73,6 +73,10 @@ The underlying algorithm is based on a combination of upwinding and fully implic
 
 Solving partial differential equations using finite difference methods on Julia.
 
+### [https://github.com/alsam/hyperbolic_PDE.jl](https://github.com/alsam/hyperbolic_PDE.jl)
+
+The examples are given from the book Numerical Solution of Hyperbolic Partial Differential Equations by John A. Trangenstein. 
+
 ## <a name="fem"></a>Finite  element methods
 
 ### [https://github.com/JuliaDiffEq/FEniCS.jl](https://github.com/JuliaDiffEq/FEniCS.jl)
