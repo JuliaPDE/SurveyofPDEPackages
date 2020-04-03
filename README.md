@@ -394,6 +394,8 @@ Geometry types and algorithms for computational science. Meshes, charts, and nei
 
 ### https://github.com/JuliaGeometry/VoronoiDelaunay.jl
 
+Fast, robust construction of 2D Delaunay and Voronoi tessellations on generic point types.
+
 ### [https://github.com/gridap/MiniQhull.jl](https://github.com/gridap/MiniQhull.jl)
 
 A simple Julia wrapper around Qhull to compute Delaunay triangulations in arbitrary dimensions. This is a direct wrapper using `ccall` (in constrast to `QHull.jl` that is a wrapper around a python wrapper of Qhull.)
