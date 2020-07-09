@@ -1,10 +1,10 @@
 # Survey of PDE Packages
 
-State of the ecosystem as of: 03/05/2020
+State of the ecosystem as of: 07/01/2020
 
 If you think something was missed, if you’d like to amend or complement the information, or if, for any reason, you wish your software not to be included, file an issue, or even better, make it a PR.
 
-For some projects the actual software is not available (or it is not clear how to get it). In that case I would at least include a link to the paper or other source of information.
+For some projects the actual software is not available (or it is not clear how to get it). In that case the document would at least include a link to the paper or other source of information.
 
 ## Table of contents
 
@@ -182,6 +182,14 @@ A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high or
 Finite Element code in the Julia language focused on complex fluid-dynamic and porous-media applications, with the possibility of including a particle simulator in the framework of the discrete element method. The 'eFEM' component allows the use of Finite Elements discretizations to solve common problems in fluid dynamics, and the 'part' refers to mesh-free particle methods (discrete element method) primarily aimed at granular-media simulations where continuum constitutive laws are unavailable.
 
 
+### [https://github.com/PetrKryslUCSD/Elfel.jl](https://github.com/PetrKryslUCSD/Elfel.jl)
+
+`Elfel.jl` is an Extensible library for Finite Element methods. It  provides support for the development of Finite Element Method applications, especially in continuum mechanics. Mixed methods with cooperating finite element spaces are supported. High performance is one of the focus points.
+
+### [https://github.com/kailaix/NNFEM.jl](https://github.com/kailaix/NNFEM.jl)
+
+NNFEM is a lightweight educational 2D finite element library with truss and 2D quadrilateral elements. Different constitutive relations are supported, including plane stress/strain, hyperelasticity, elasto-plasticity, etc. It supports unstructured grid. It  supports learning a neural network-based constitutive relations with both direct data (i.e, strain-stress pairs) and indirect data (i.e. full displacement field) via automatic differentiation, and solving finite element problems with network-based constitutive relations.
+
 ## <a name="fvm"></a>Finite  volume methods
 
 ### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
@@ -209,6 +217,10 @@ Not much activity.
 
 ### [https://github.com/ranocha/PolynomialBases.jl](https://github.com/ranocha/PolynomialBases.jl)
 
+### [https://github.com/omersan/CFD_Julia_MAE5093](https://github.com/omersan/CFD_Julia_MAE5093)
+
+This repository contains fundamental codes related to CFD that can be included in any graduate level CFD coursework. A number of codes are included in CFD_Julia module, for instance 1D inviscid Burgers equation, 1D Euler equation, 2D Poisson equation, and 2D incompressible Navier-Stokes equations.
+
 A library of functions for polynomial bases used in spectral element methods.
 
 ## <a name="bie"></a>Boundary element, boundary integral methods
@@ -217,12 +229,12 @@ A library of functions for polynomial bases used in spectral element methods.
 
 This package contains common basis functions and assembly routines for the implementation of boundary element methods. Examples are included for the 2D and 3D Helmholtz equations and for the 3D Maxwell equations.
 
+
 ### NESSie.jl
 
 Paper: Efficient and intuitive finite element and boundary element methods for nonlocal protein electrostatics in the Julia language [Link](https://www.sciencedirect.com/science/article/pii/S187775031730738X) Also listed as a finite element toolkit.
 
 ## <a name="mfe">Mesh free methods and particle methods
-
 
 ### [www.researchgate.net..._Programming_the_material_point_method_in_Julia](https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia)
 
@@ -416,6 +428,9 @@ Halfedge data structure for navigating and querying polygonal meshes.
 
 Small package for the topology of meshes for the Finite Element Methods (FEM). All essential topological incidence relations are provided: see the guide. The library provides efficient storage of coordinates and connectivities in static arrays for speed of access.
 
+### [https://github.com/PetrKryslUCSD/MeshSteward.jl](https://github.com/PetrKryslUCSD/MeshSteward.jl)
+
+Small package for the management of meshes for the Finite Element Methods (FEM). A convenience layer on top of [MeshCore.jl](https://github.com/PetrKryslUCSD/MeshCore.jl).
 
 ## <a name="post"></a>Postprocessing, visualization
 
@@ -473,3 +488,6 @@ Tensor Train format).
 ### [https://github.com/JerryLingjieMei/NonlinearPDE](https://github.com/JerryLingjieMei/NonlinearPDE)
 
 Solution of a nonlinear elliptic PDE with multi-grid.
+
+## Waiting for classification
+
