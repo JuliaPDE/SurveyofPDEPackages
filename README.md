@@ -1,10 +1,10 @@
 # Survey of PDE Packages
 
-State of the ecosystem as of: 03/05/2020
+State of the ecosystem as of: 07/01/2020
 
 If you think something was missed, if you’d like to amend or complement the information, or if, for any reason, you wish your software not to be included, file an issue, or even better, make it a PR.
 
-For some projects the actual software is not available (or it is not clear how to get it). In that case I would at least include a link to the paper or other source of information.
+For some projects the actual software is not available (or it is not clear how to get it). In that case the document would at least include a link to the paper or other source of information.
 
 ## Table of contents
 
