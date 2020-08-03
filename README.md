@@ -215,6 +215,10 @@ Updated for Julia 1.0.
 
 Incompressible fluid flow solver written in Julia that can be run in 1-3 dimensions on CPUs and GPUs. It is designed to solve the rotating Boussinesq equations used in non-hydrostatic ocean modeling but can be used to solve for any incompressible flow.
 
+### [https://github.com/vavrines/Kinetic.jl](https://github.com/vavrines/Kinetic.jl)
+
+A lightweight finite volume toolbox for solving Boltzmann equation and its moments systems (Euler, Navier-Stokes, etc).
+
 ## <a name="sem"></a>Spectral  element methods
 
 ### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
