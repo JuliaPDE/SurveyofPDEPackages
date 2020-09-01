@@ -196,6 +196,33 @@ Finite Element code in the Julia language focused on complex fluid-dynamic and p
 
 NNFEM is a lightweight educational 2D finite element library with truss and 2D quadrilateral elements. Different constitutive relations are supported, including plane stress/strain, hyperelasticity, elasto-plasticity, etc. It supports unstructured grid. It  supports learning a neural network-based constitutive relations with both direct data (i.e, strain-stress pairs) and indirect data (i.e. full displacement field) via automatic differentiation, and solving finite element problems with network-based constitutive relations.
 
+### [https://github.com/trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl)
+
+**Trixi.jl** is a numerical simulation framework for hyperbolic conservation
+laws written in Julia. A key objective for the
+framework is to be useful to both scientists and students. Therefore, next to
+having an extensible design with a fast implementation, Trixi is
+focused on being easy to use for new or inexperienced users, including the
+installation and postprocessing procedures. Its features include:
+
+* Hierarchical quadtree/octree grid with adaptive mesh refinement
+* Native support for 2D and 3D simulations
+* High-order accuracy in space in time
+* Nodal discontinuous Galerkin spectral element methods
+  * Kinetic energy-preserving and entropy-stable split forms
+  * Entropy-stable shock capturing
+* Explicit low-storage Runge-Kutta time integration
+* Square/cubic domains with periodic and Dirichlet boundary conditions
+* Multiple governing equations:
+  * Compressible Euler equations
+  * Magnetohydrodynamics equations
+  * Hyperbolic diffusion equations for elliptic problems
+  * Scalar advection
+* Multi-physics simulations
+  * [Self-gravitating gas dynamics](https://github.com/trixi-framework/paper-self-gravitating-gas-dynamics)
+* Shared-memory parallelization via multithreading
+* Visualization of results with Julia-only tools (2D) or ParaView/VisIt (2D/3D)
+
 ## <a name="fvm"></a>Finite  volume methods
 
 ### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
