@@ -179,9 +179,14 @@ LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-
 
 Programs in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts.
 
-### [https://github.com/jlchan/JuliaDG](https://github.com/jlchan/JuliaDG)
-A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements.
+### [https://github.com/jlchan/ESDG.jl](https://github.com/jlchan/ESDG.jl)
+A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements. 
 
+### [https://github.com/jlchan/NodesAndModes.jl](https://github.com/jlchan/NodesAndModes.jl)
+A collection of routines to compute high order "modal" and "nodal" basis functions and their derivatives on 1D, 2D (triangle, quadrilateral), and 3D (hexahedral, tetrahedral, wedge, pyramid) elements. Routines are also provided for quadrature rules and for computing optimized interpolation points. 
+
+### [https://github.com/jlchan/StartUpDG.jl](https://github.com/jlchan/StartUpDG.jl)
+A translation of the core Matlab codes from [Nodal Discontinuous Galerkin methods](https://www.springer.com/gp/book/9780387720654) to Julia.
 
 ### [https://github.com/pseastham/eFEMpart](https://github.com/pseastham/eFEMpart)
 
