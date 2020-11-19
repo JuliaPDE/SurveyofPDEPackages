@@ -204,20 +204,24 @@ NNFEM is a lightweight educational 2D finite element library with truss and 2D q
 ### [https://github.com/trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl)
 
 **Trixi.jl** is a numerical simulation framework for hyperbolic conservation
-laws written in Julia. A key objective for the
+laws written in [Julia](https://julialang.org). A key objective for the
 framework is to be useful to both scientists and students. Therefore, next to
 having an extensible design with a fast implementation, Trixi is
 focused on being easy to use for new or inexperienced users, including the
 installation and postprocessing procedures. Its features include:
 
 * Hierarchical quadtree/octree grid with adaptive mesh refinement
-* Native support for 2D and 3D simulations
+* Native support for 1D, 2D, and 3D simulations
 * High-order accuracy in space in time
 * Nodal discontinuous Galerkin spectral element methods
   * Kinetic energy-preserving and entropy-stable split forms
   * Entropy-stable shock capturing
-* Explicit low-storage Runge-Kutta time integration
-* Square/cubic domains with periodic and Dirichlet boundary conditions
+  * Positivity-preserving limiting
+* Compatible with the [SciML ecosystem for ordinary differential equations](https://diffeq.sciml.ai/latest/)
+  * [Explicit low-storage Runge-Kutta time integration](https://diffeq.sciml.ai/latest/solvers/ode_solve/#Low-Storage-Methods)
+  * [Strong stability preserving methods](https://diffeq.sciml.ai/latest/solvers/ode_solve/#Explicit-Strong-Stability-Preserving-Runge-Kutta-Methods-for-Hyperbolic-PDEs-(Conservation-Laws))
+  * CFL-based and error-based time step control
+* Square/cubic domains with periodic and weakly-enforced boundary conditions
 * Multiple governing equations:
   * Compressible Euler equations
   * Magnetohydrodynamics equations
@@ -226,7 +230,9 @@ installation and postprocessing procedures. Its features include:
 * Multi-physics simulations
   * [Self-gravitating gas dynamics](https://github.com/trixi-framework/paper-self-gravitating-gas-dynamics)
 * Shared-memory parallelization via multithreading
-* Visualization of results with Julia-only tools (2D) or ParaView/VisIt (2D/3D)
+* Visualization of results with Julia-only tools ([Trixi2Img](https://github.com/trixi-framework/Trixi2Img.jl))
+  or ParaView/VisIt ([Trixi2Vtk](https://github.com/trixi-framework/Trixi2Vtk.jl))
+
 
 ## <a name="fvm"></a>Finite  volume methods
 
