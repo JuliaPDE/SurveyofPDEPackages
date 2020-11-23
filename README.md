@@ -179,9 +179,14 @@ LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-
 
 Programs in chapters 4, 5 and early sections of 6 as described in "Programming the Finite Element Method" by Smith, Griffiths and Margetts.
 
-### [https://github.com/jlchan/JuliaDG](https://github.com/jlchan/JuliaDG)
-A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements.
+### [https://github.com/jlchan/ESDG.jl](https://github.com/jlchan/ESDG.jl)
+A set of codes for solving 1D/2D/3D time-dependent hyperbolic PDEs using high order DG methods on conforming unstructured meshes of triangular, quadrilateral, or hexahedral elements. 
 
+### [https://github.com/jlchan/NodesAndModes.jl](https://github.com/jlchan/NodesAndModes.jl)
+A collection of routines to compute high order "modal" and "nodal" basis functions and their derivatives on 1D, 2D (triangle, quadrilateral), and 3D (hexahedral, tetrahedral, wedge, pyramid) elements. Routines are also provided for quadrature rules and for computing optimized interpolation points. 
+
+### [https://github.com/jlchan/StartUpDG.jl](https://github.com/jlchan/StartUpDG.jl)
+A translation of the core Matlab codes from [Nodal Discontinuous Galerkin methods](https://www.springer.com/gp/book/9780387720654) to Julia.
 
 ### [https://github.com/pseastham/eFEMpart](https://github.com/pseastham/eFEMpart)
 
@@ -198,19 +203,32 @@ NNFEM is a lightweight educational 2D finite element library with truss and 2D q
 
 ### [https://github.com/trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl)
 
-Trixi.jl is a numerical simulation framework for hyperbolic conservation laws written in Julia:
-It implements:
-- Hierarchical quadtree/octree grid with adaptive mesh refinement
-- Native support for 1D, 2D, and 3D simulations
-- High-order accuracy in space in time
-- Nodal discontinuous Galerkin spectral element methods
-- Kinetic energy-preserving and entropy-stable split forms
-- Entropy-stable shock capturing
-- Positivity-preserving limiting
-- Compatible with the SciML ecosystem for ordinary differential equations
-- Multiple governing equations: Compressible Euler equations, Magnetohydrodynamics equations, Hyperbolic diffusion equations for elliptic problems, Scalar advection, Multi-physics simulations, Self-gravitating gas dynamics
-- Shared-memory parallelization via multithreading
-- Visualization of results with Julia-only tools (Trixi2Img) or ParaView/VisIt (Trixi2Vtk)
+
+**Trixi.jl** is a numerical simulation framework for hyperbolic conservation
+laws written in Julia. A key objective for the
+framework is to be useful to both scientists and students. Therefore, next to
+having an extensible design with a fast implementation, Trixi is
+focused on being easy to use for new or inexperienced users, including the
+installation and postprocessing procedures. Its features include:
+
+* Hierarchical quadtree/octree grid with adaptive mesh refinement
+* Native support for 2D and 3D simulations
+* High-order accuracy in space in time
+* Nodal discontinuous Galerkin spectral element methods
+  * Kinetic energy-preserving and entropy-stable split forms
+  * Entropy-stable shock capturing
+* Explicit low-storage Runge-Kutta time integration
+* Square/cubic domains with periodic and Dirichlet boundary conditions
+* Multiple governing equations:
+  * Compressible Euler equations
+  * Magnetohydrodynamics equations
+  * Hyperbolic diffusion equations for elliptic problems
+  * Scalar advection
+* Multi-physics simulations
+  * [Self-gravitating gas dynamics](https://github.com/trixi-framework/paper-self-gravitating-gas-dynamics)
+* Shared-memory parallelization via multithreading
+* Visualization of results with Julia-only tools (2D) or ParaView/VisIt (2D/3D)
+
 
 ## <a name="fvm"></a>Finite  volume methods
 
@@ -230,6 +248,10 @@ Updated for Julia 1.0.
 ### [https://github.com/climate-machine/Oceananigans.jl](https://github.com/climate-machine/Oceananigans.jl)
 
 Incompressible fluid flow solver written in Julia that can be run in 1-3 dimensions on CPUs and GPUs. It is designed to solve the rotating Boussinesq equations used in non-hydrostatic ocean modeling but can be used to solve for any incompressible flow.
+
+### [https://github.com/vavrines/Kinetic.jl](https://github.com/vavrines/Kinetic.jl)
+
+A lightweight finite volume toolbox for solving Boltzmann equation and its moments systems (Euler, Navier-Stokes, etc).
 
 ## <a name="sem"></a>Spectral  element methods
 
@@ -358,7 +380,7 @@ Solve sparse linear systems using Algebraic Multigrid (AMG). This works especial
 
 This package aims to provide state-of-the-art algorithms to solve the nonlinear eigenvalue problem. This currently includes (but is not restricted to) Newton-type methods, Subspace methods, Krylov methods, contour integral methods, block methods, companion matrix approaches. Problem transformation techniques such as scaling, shifting, deflating are also natively supported by the package.
 
-### [https://github.com/rveltz/PseudoArcLengthContinuation.jl](https://github.com/rveltz/PseudoArcLengthContinuation.jl)
+### [https://github.com/rveltz/BifurcationKit.jl](https://github.com/rveltz/BifurcationKit.jl)
 
 This  package aims at solving equations F(u,λ)=0 where λ∈ℝ starting from an initial guess (u0,λ0). It relies on the pseudo arclength continuation algorithm which provides a predictor (u1,λ1) from (u0,λ0). A Newton method is then used to correct this predictor. The focus is on large scale nonlinear problems and multiple hardwares, and the goal is to use Matrix Free methods on a GPU (see PDE example and Periodic orbit example) or on a cluster to solve non linear PDE, nonlocal problems, compute sub-manifolds and so on.
 
