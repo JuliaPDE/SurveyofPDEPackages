@@ -196,6 +196,22 @@ Finite Element code in the Julia language focused on complex fluid-dynamic and p
 
 NNFEM is a lightweight educational 2D finite element library with truss and 2D quadrilateral elements. Different constitutive relations are supported, including plane stress/strain, hyperelasticity, elasto-plasticity, etc. It supports unstructured grid. It  supports learning a neural network-based constitutive relations with both direct data (i.e, strain-stress pairs) and indirect data (i.e. full displacement field) via automatic differentiation, and solving finite element problems with network-based constitutive relations.
 
+### [https://github.com/trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl)
+
+Trixi.jl is a numerical simulation framework for hyperbolic conservation laws written in Julia:
+It implements:
+- Hierarchical quadtree/octree grid with adaptive mesh refinement
+- Native support for 1D, 2D, and 3D simulations
+- High-order accuracy in space in time
+- Nodal discontinuous Galerkin spectral element methods
+- Kinetic energy-preserving and entropy-stable split forms
+- Entropy-stable shock capturing
+- Positivity-preserving limiting
+- Compatible with the SciML ecosystem for ordinary differential equations
+- Multiple governing equations: Compressible Euler equations, Magnetohydrodynamics equations, Hyperbolic diffusion equations for elliptic problems, Scalar advection, Multi-physics simulations, Self-gravitating gas dynamics
+- Shared-memory parallelization via multithreading
+- Visualization of results with Julia-only tools (Trixi2Img) or ParaView/VisIt (Trixi2Vtk)
+
 ## <a name="fvm"></a>Finite  volume methods
 
 ### [https://github.com/madsjulia/FiniteVolume.jl](https://github.com/madsjulia/FiniteVolume.jl)
