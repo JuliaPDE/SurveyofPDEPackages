@@ -89,7 +89,7 @@ The examples are given from the book Numerical Solution of Hyperbolic Partial Di
 
 FEniCS.jl is a wrapper for the FEniCS library for finite element discretizations of PDEs.
 
-### [https://github.com/KristofferC/JuAFEM.jl](https://github.com/KristofferC/JuAFEM.jl)
+### [https://github.com/Ferrite-FEM/Ferrite.jl](https://github.com/Ferrite-FEM/Ferrite.jl)
 
 A simple finite element toolbox written in Julia. It is actually quite powerful, and it is being actively updated. Some parallels with deal.II might help with the learning curve.
 
