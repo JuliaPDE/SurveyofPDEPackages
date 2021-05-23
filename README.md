@@ -81,7 +81,11 @@ Solving partial differential equations using finite difference methods on Julia.
 
 ### [https://github.com/alsam/hyperbolic_PDE.jl](https://github.com/alsam/hyperbolic_PDE.jl)
 
-The examples are given from the book Numerical Solution of Hyperbolic Partial Differential Equations by John A. Trangenstein. 
+The examples are given from the book Numerical Solution of Hyperbolic Partial Differential Equations by John A. Trangenstein.
+
+### [https://github.com/JuliaIBPM](https://github.com/JuliaIBPM)
+
+An ecosystem of repositories for solving PDEs with the immersed boundary projection method on staggered Cartesian grids.
 
 ## <a name="fem"></a>Finite  element methods
 
