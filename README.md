@@ -258,6 +258,10 @@ Incompressible fluid flow solver written in Julia that can be run in 1-3 dimensi
 
 A lightweight finite volume toolbox for solving Boltzmann equation and its moments systems (Euler, Navier-Stokes, etc).
 
+### [https://github.com/DanielVandH/FiniteVolumeMethod.jl](https://github.com/DanielVandH/FiniteVolumeMethod.jl)
+
+This is a package for solving two-dimensional PDEs of type $\partial_t u + \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{q}(x, y, t, u) = R(x, y, t, u)$ with the finite volume method with a user-provided triangular mesh. Builds on the DifferentialEquations.jl interface to allow for different algorithms, linear solvers, etc. to be used with ease.
+
 ## <a name="sem"></a>Spectral  element methods
 
 ### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
@@ -480,6 +484,10 @@ Small package for the topology of meshes for the Finite Element Methods (FEM). A
 ### [https://github.com/PetrKryslUCSD/MeshSteward.jl](https://github.com/PetrKryslUCSD/MeshSteward.jl)
 
 Small package for the management of meshes for the Finite Element Methods (FEM). A convenience layer on top of [MeshCore.jl](https://github.com/PetrKryslUCSD/MeshCore.jl).
+ 
+ ### [https://github.com/DanielVandH/DelaunayTriangulation.jl](https://github.com/DanielVandH/DelaunayTriangulation.jl)
+ 
+ Package for constructing unconstrained Delaunay triangulations of planar point sets with a generic interface for geometric primitives to allow for easy customisation. Exact predicates are used to make the procedures robust.
 
 ## <a name="post"></a>Postprocessing, visualization
 
