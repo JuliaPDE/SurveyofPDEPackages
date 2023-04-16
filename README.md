@@ -487,7 +487,7 @@ Small package for the management of meshes for the Finite Element Methods (FEM).
  
  ### [https://github.com/DanielVandH/DelaunayTriangulation.jl](https://github.com/DanielVandH/DelaunayTriangulation.jl)
  
- Package for constructing unconstrained Delaunay triangulations of planar point sets with a generic interface for geometric primitives to allow for easy customisation. Exact predicates are used to make the procedures robust.
+Package for constructing unconstrained or constrained Delaunay triangulations of planar point sets, with support for mesh refinement with constant or custom area and angle constraints, with a generic interface for geometric primitives to allow for easy customisation. Exact predicates are used to make the procedures robust.
 
 ## <a name="post"></a>Postprocessing, visualization
 
