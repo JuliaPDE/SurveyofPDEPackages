@@ -39,7 +39,7 @@ For some projects the actual software is not available (or it is not clear how t
 
 ApproxFun is a package for approximating functions. It is in a similar vein to the Matlab package Chebfun and the Mathematica package RHPackage. Active and high quality project.
 
-### [(https://docs.sciml.ai/DiffEqDocs/stable/)](https://docs.sciml.ai/DiffEqDocs/stable/)
+### [https://docs.sciml.ai/DiffEqDocs/stable/](https://docs.sciml.ai/DiffEqDocs/stable/)
 
 DifferentialEquations.jl: Efficient Differential Equation Solving in Julia. This is a suite for numerically solving differential equations written in Julia and available for use in Julia, Python, and R. The purpose of this package is to supply efficient Julia implementations of solvers for various differential equations. Equations within the realm of this package include:
 
