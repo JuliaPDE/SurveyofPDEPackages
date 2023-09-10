@@ -1,6 +1,6 @@
 # Survey of PDE Packages
 
-State of the ecosystem as of: 07/01/2020
+State of the ecosystem as of: 09/10/2023
 
 This is a brief list of packages relevant when solving partial differential equations with Julia. The information is mostly gleaned from repositories of packages or from published reports or articles. If
 
