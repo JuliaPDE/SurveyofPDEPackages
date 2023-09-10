@@ -39,23 +39,23 @@ For some projects the actual software is not available (or it is not clear how t
 
 ApproxFun is a package for approximating functions. It is in a similar vein to the Matlab package Chebfun and the Mathematica package RHPackage. Active and high quality project.
 
-### [[https://juliadiffeq.org/](https://docs.sciml.ai/DiffEqDocs/stable/)]([https://juliadiffeq.org/](https://docs.sciml.ai/DiffEqDocs/stable/))
+### [(https://docs.sciml.ai/DiffEqDocs/stable/)](https://docs.sciml.ai/DiffEqDocs/stable/)
 
 DifferentialEquations.jl: Efficient Differential Equation Solving in Julia. This is a suite for numerically solving differential equations written in Julia and available for use in Julia, Python, and R. The purpose of this package is to supply efficient Julia implementations of solvers for various differential equations. Equations within the realm of this package include:
 
-Discrete equations (function maps, discrete stochastic (Gillespie/Markov) simulations)
-Ordinary differential equations (ODEs)
-Split and Partitioned ODEs (Symplectic integrators, IMEX Methods)
-Stochastic ordinary differential equations (SODEs or SDEs)
-Stochastic differential-algebraic equations (SDAEs)
-Random differential equations (RODEs or RDEs)
-Differential algebraic equations (DAEs)
-Delay differential equations (DDEs)
-Neutral, retarded, and algebraic delay differential equations (NDDEs, RDDEs, and DDAEs)
-Stochastic delay differential equations (SDDEs)
-Experimental support for stochastic neutral, retarded, and algebraic delay differential equations (SNDDEs, SRDDEs, and SDDAEs)
-Mixed discrete and continuous equations (Hybrid Equations, Jump Diffusions)
-(Stochastic) partial differential equations ((S)PDEs) (with both finite difference and finite element methods)
+- Discrete equations (function maps, discrete stochastic (Gillespie/Markov) simulations)
+- Ordinary differential equations (ODEs)
+- Split and Partitioned ODEs (Symplectic integrators, IMEX Methods)
+- Stochastic ordinary differential equations (SODEs or SDEs)
+- Stochastic differential-algebraic equations (SDAEs)
+- Random differential equations (RODEs or RDEs)
+- Differential algebraic equations (DAEs)
+- Delay differential equations (DDEs)
+- Neutral, retarded, and algebraic delay differential equations (NDDEs, RDDEs, and DDAEs)
+- Stochastic delay differential equations (SDDEs)
+- Experimental support for stochastic neutral, retarded, and algebraic delay differential equations (SNDDEs, SRDDEs, and SDDAEs)
+- Mixed discrete and continuous equations (Hybrid Equations, Jump Diffusions)
+- (Stochastic) partial differential equations ((S)PDEs) (with both finite difference and finite element methods)
 
 
 ## <a name="tm"></a>Transform methods
