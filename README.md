@@ -305,7 +305,7 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 ## <a name="mfe">Mesh free methods and particle methods
 
 ### [https://github.com/kaipartmann/Peridynamics.jl](https://github.com/kaipartmann/Peridynamics.jl)
-A Julia package for peridynamics simulations. Peridynamics is a non-local formulation of continuum mechanics where material points represent the continuum, and particularly well-suited for dynamic fracture simulations involving numerous cracks.
+Peridynamics is a non-local formulation of continuum mechanics in which material points represent the continuum. It is particularly well suited for dynamic fracture simulations.
 
 ### [www.researchgate.net..._Programming_the_material_point_method_in_Julia](https://www.researchgate.net/publication/312610697_Programming_the_material_point_method_in_Julia)
 
