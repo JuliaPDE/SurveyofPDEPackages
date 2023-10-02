@@ -1,6 +1,6 @@
 # Survey of PDE Packages
 
-State of the ecosystem as of: 09/10/2023
+State of the ecosystem as of: 10/02/2023
 
 This is a brief list of packages relevant when solving partial differential equations with Julia. The information is mostly gleaned from repositories of packages or from published reports or articles. If
 
@@ -72,6 +72,10 @@ The density-functional toolkit is a library of Julia routines for experimentatio
 ### [https://github.com/FourierFlows/FourierFlows.jl](https://github.com/FourierFlows/FourierFlows.jl)
 Tools for solving partial differential equations on periodic domains using Fourier-based pseudospectral methods.
 
+### [PencilFFTs.jl](https://github.com/jipolanco/PencilFFTs.jl) 
+Fast Fourier transforms of MPI-distributed Julia arrays that can be used for pseudospectral partial differential equation solvers.
+
+
 ## <a name="fdm"></a>Finite difference methods
 
 ### [https://github.com/JuliaDiffEq/DiffEqOperators.jl](https://github.com/JuliaDiffEq/DiffEqOperators.jl)
@@ -101,6 +105,14 @@ The examples are given from the book Numerical Solution of Hyperbolic Partial Di
 ### [https://github.com/JuliaIBPM](https://github.com/JuliaIBPM)
 
 An ecosystem of repositories for solving PDEs with the immersed boundary projection method on staggered Cartesian grids.
+
+
+### [ParallelStencil.jl](https://github.com/omlins/ParallelStencil.jl) 
+Package for writing high-level code for parallel high-performance stencil computations that can be deployed on both GPUs and CPUs
+
+### [ImplicitGlobalGrid.jl](https://github.com/eth-cscs/ImplicitGlobalGrid.jl) 
+Almost trivial distributed parallelization of stencil-based GPU and CPU applications on a regular staggered grid
+
 
 ## <a name="fem"></a>Finite  element methods
 
