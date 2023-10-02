@@ -289,6 +289,9 @@ A lightweight finite volume toolbox for solving Boltzmann equation and its momen
 
 This is a package for solving two-dimensional PDEs of type $\partial_t u + \boldsymbol{\nabla} \boldsymbol{\cdot} \boldsymbol{q}(x, y, t, u) = R(x, y, t, u)$ with the finite volume method with a user-provided triangular mesh. Builds on the DifferentialEquations.jl interface to allow for different algorithms, linear solvers, etc. to be used with ease.
 
+### [https://github.com/martinheida/HighVoronoi.jl](https://github.com/martinheida/HighVoronoi.jl)
+A Julia Package for setting up high dimensional (i.e. any dimension >= 2) Finite Volume problems on Voronoi Meshes.
+
 ## <a name="sem"></a>Spectral  element methods
 
 ### [https://github.com/pjabardo/SpectralElements.jl](https://github.com/pjabardo/SpectralElements.jl)
