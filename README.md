@@ -424,7 +424,7 @@ This package aims to provide state-of-the-art algorithms to solve the nonlinear 
 
 ### [https://github.com/rveltz/BifurcationKit.jl](https://github.com/rveltz/BifurcationKit.jl)
 
-This  package aims at solving equations F(u,λ)=0 where λ∈ℝ starting from an initial guess (u0,λ0). It relies on the pseudo arclength continuation algorithm which provides a predictor (u1,λ1) from (u0,λ0). A Newton method is then used to correct this predictor. The focus is on large scale nonlinear problems and multiple hardwares, and the goal is to use Matrix Free methods on a GPU (see PDE example and Periodic orbit example) or on a cluster to solve non linear PDE, nonlocal problems, compute sub-manifolds and so on.
+This organisation provides a set of tools to compute (automatically) bifurcation diagrams of ODE, DDE, PDE, nonlocal problems, etc. It can thus tackle large dimensional problems, by for example, using a GPU. The computation of periodic orbits and their bifurcations is also possible.
 
 ### [https://github.com/Jutho/KrylovKit.jl](https://github.com/Jutho/KrylovKit.jl)
 A Julia package collecting a number of Krylov-based algorithms for linear problems, singular value and eigenvalue problems and the application of functions of linear maps or operators to vectors.
