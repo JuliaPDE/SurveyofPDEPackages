@@ -789,12 +789,6 @@ A Julia package for representing block-block-banded matrices and banded-block-ba
 
 ### [kernelmatrices.jl](https://bitbucket.org/cgeoga/kernelmatrices.jl)
 
-![GitHub contributors](https://img.shields.io/github/contributors/cgeoga/kernelmatrices.jl)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/cgeoga/kernelmatrices.jl)
-![GitHub last commit](https://img.shields.io/github/last-commit/cgeoga/kernelmatrices.jl)
-![GitHub stars](https://img.shields.io/github/stars/cgeoga/kernelmatrices.jl)
-![GitHub license](https://img.shields.io/github/license/cgeoga/kernelmatrices.jl)
-
 This software suite is a companion to the manuscript Scalable Gaussian Process Computations using Hierarchical Matrices.
 
 ### [ClusterTrees.jl](https://github.com/krcools/ClusterTrees.jl)
