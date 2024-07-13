@@ -170,7 +170,7 @@ Solving partial differential equations using finite difference methods on Julia.
 ### [hyperbolic_PDE.jl](https://github.com/alsam/hyperbolic_PDE.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/alsam/hyperbolic_PDE.jl)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/alsam/hyperbolic_PDE)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/alsam/hyperbolic_PDE.jl)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alsam/hyperbolic_PDE.jl)
 ![GitHub stars](https://img.shields.io/github/stars/alsam/hyperbolic_PDE.jl)
 ![GitHub license](https://img.shields.io/github/license/alsam/hyperbolic_PDE.jl)
