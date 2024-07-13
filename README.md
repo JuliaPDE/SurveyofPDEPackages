@@ -184,10 +184,10 @@ An ecosystem of repositories for solving PDEs with the immersed boundary project
 ### [ParallelStencil.jl](https://github.com/omlins/ParallelStencil.jl) 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/omlins/ParallelStencil.jl)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/omlins/ParallelStencil)
-![GitHub last commit](https://img.shields.io/github/last-commit/omlins/ParallelStencil)
-![GitHub stars](https://img.shields.io/github/stars/omlins/ParallelStencil)
-![GitHub license](https://img.shields.io/github/license/omlins/ParallelStencil)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/omlins/ParallelStencil.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/omlins/ParallelStencil.jl)
+![GitHub stars](https://img.shields.io/github/stars/omlins/ParallelStencil.jl)
+![GitHub license](https://img.shields.io/github/license/omlins/ParallelStencil.jl)
 
 Package for writing high-level code for parallel high-performance stencil computations that can be deployed on both GPUs and CPUs
 
