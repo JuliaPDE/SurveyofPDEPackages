@@ -801,16 +801,6 @@ This software suite is a companion to the manuscript Scalable Gaussian Process C
 
 Tree data structures for fast multipole methods and H-matrices.
 
-### [SuiteSparse.jl](https://github.com/JuliaLinearAlgebra/SuiteSparse.jl)
-
-![GitHub contributors](https://img.shields.io/github/contributors/JuliaLinearAlgebra/SuiteSparse.jl)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/JuliaLinearAlgebra/SuiteSparse.jl)
-![GitHub last commit](https://img.shields.io/github/last-commit/JuliaLinearAlgebra/SuiteSparse.jl)
-![GitHub stars](https://img.shields.io/github/stars/JuliaLinearAlgebra/SuiteSparse.jl)
-![GitHub license](https://img.shields.io/github/license/JuliaLinearAlgebra/SuiteSparse.jl)
-
-SuiteSparse wrappers in Julia.
-
 ### [Arpack.jl](https://github.com/JuliaLinearAlgebra/Arpack.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/JuliaLinearAlgebra/Arpack.jl)
