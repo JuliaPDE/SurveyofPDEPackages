@@ -619,6 +619,17 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 
 ## <a name="mfe">Mesh free methods and particle methods
 
+### [HighDimPDE.jl](https://github.com/SciML/HighDimPDE.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/SciML/HighDimPDE.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/SciML/HighDimPDE.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/SciML/HighDimPDE.jl)
+![GitHub stars](https://img.shields.io/github/stars/SciML/HighDimPDE.jl)
+![GitHub license](https://img.shields.io/github/license/SciML/HighDimPDE.jl)
+
+A Julia package for Deep Backwards Stochastic Differential Equation (Deep BSDE), Feynman-Kac and Multi-level Picard (MLP) methods to solve high-dimensional non-local nonlinear PDEs.
+**Reference**: Boussange, V., Becker, S., Jentzen, A., Kuckuck, B., Pellissier, L., Deep learning approximations for non-local nonlinear PDEs with Neumann boundary conditions. [arXiv](https://arxiv.org/abs/2205.03672) (2022)
+
 ### [Peridynamics.jl](https://github.com/kaipartmann/Peridynamics.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/kaipartmann/Peridynamics.jl)
