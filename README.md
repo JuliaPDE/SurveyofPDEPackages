@@ -1160,6 +1160,15 @@ This provides Julia interface to the Message Passing Interface (MPI), roughly in
 
 This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API.
 
+### [PartitionedArrays.jl](https://github.com/fverdugo/PartitionedArrays.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/fverdugo/PartitionedArrays.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/fverdugo/PartitionedArrays.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/fverdugo/PartitionedArrays.jl)
+![GitHub stars](https://img.shields.io/github/stars/fverdugo/PartitionedArrays.jl)
+![GitHub license](https://img.shields.io/github/license/fverdugo/PartitionedArrays.jl)
+
+This package is an alternative to MPI to develop bulk-synchronous parallel applications. It is based on a data-orietned programming model designed to simplify the prototyping and debugging of distributed applications. Logically distribtued codes can be run sequentially for debugging purposes. The package also provides an MPI backend to deploy production runs on large computer clusters. On top of this programming model, PartitionedArrays implements ditributed sparse matrices, distributed vectors, and distributed solvers and preconditioners such as algebraic multigrid making it also a Julia alternative to PETSC. Finite element packages such as [GalerkinToolkit.jl](https://github.com/GalerkinToolkit/GalerkinToolkit.jl) and [Gridap.jl](https://github.com/gridap/Gridap.jl) use PartitionedArrays as the distributed linear algebra backend.
 
 ## <a name="opt"></a>Optimization
 
