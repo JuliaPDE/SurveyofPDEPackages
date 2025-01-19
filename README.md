@@ -728,6 +728,26 @@ This package provides a high level interface for PETSc.
 
 This package provides thin wrappers for PETSc, as well as a few convenience functions that take advantage of multiple dispatch.
 
+### [PetscCall.jl](https://github.com/fverdugo/PetscCall.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/fverdugo/PetscCall.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/fverdugo/PetscCall.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/fverdugo/PetscCall.jl)
+![GitHub stars](https://img.shields.io/github/stars/fverdugo/PetscCall.jl)
+![GitHub license](https://img.shields.io/github/license/fverdugo/PetscCall.jl)
+
+This package provides both a low-level and high-level interface to access PETSC from julia both for sequential and distributed computations. The low level interface is almsot one-to-one to the C-API of PETSC, providing full control, but it is really low-level. One needs to allocate/destroy objects, deal with pointers etc. The high-level interface provides easy access to petsc solvers. In contrast to other PETSC wrappers, the input and output objects are not "PETSC" matrices and vectors, but standard julia (sparse) matrices and vectors. So, using it is very easy one you have your usual Julia objects. For parallel computations, the input and outputs are the pure Julia distributed sparse matrices (`PSparseMatrix`) and vectors (`PVector`) provided by [PartitionedArrays.jl](https://github.com/fverdugo/PartitionedArrays.jl).
+
+### [PartitionedArrays.jl](https://github.com/fverdugo/PartitionedArrays.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/fverdugo/PartitionedArrays.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/fverdugo/PartitionedArrays.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/fverdugo/PartitionedArrays.jl)
+![GitHub stars](https://img.shields.io/github/stars/fverdugo/PartitionedArrays.jl)
+![GitHub license](https://img.shields.io/github/license/fverdugo/PartitionedArrays.jl)
+
+This package is a pure Julia alternative to PETSC, providing ditributed sparse matrices, distributed vectors, and distributed solvers and preconditioners such as algebraic multigrid. The package is based on a new data-oriented programming model designed to simplify the prototyping and debugging of distributed applications. Finite element packages such as [GalerkinToolkit.jl](https://github.com/GalerkinToolkit/GalerkinToolkit.jl) and [Gridap.jl](https://github.com/gridap/Gridap.jl) use PartitionedArrays as the distributed linear algebra backend.
+
 ### [PositiveFactorizations.jl](https://github.com/timholy/PositiveFactorizations.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/timholy/PositiveFactorizations.jl)
@@ -1140,6 +1160,15 @@ This provides Julia interface to the Message Passing Interface (MPI), roughly in
 
 This code provides a way to use PUMI from Julia by wrapping functions in PUMIs APF API.
 
+### [PartitionedArrays.jl](https://github.com/fverdugo/PartitionedArrays.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/fverdugo/PartitionedArrays.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/fverdugo/PartitionedArrays.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/fverdugo/PartitionedArrays.jl)
+![GitHub stars](https://img.shields.io/github/stars/fverdugo/PartitionedArrays.jl)
+![GitHub license](https://img.shields.io/github/license/fverdugo/PartitionedArrays.jl)
+
+This package is an alternative to MPI to develop bulk-synchronous parallel applications. It is based on a data-orietned programming model designed to simplify the prototyping and debugging of distributed applications. Logically distribtued codes can be run sequentially for debugging purposes. The package also provides an MPI backend to deploy production runs on large computer clusters. On top of this programming model, PartitionedArrays implements ditributed sparse matrices, distributed vectors, and distributed solvers and preconditioners such as algebraic multigrid making it also a Julia alternative to PETSC. Finite element packages such as [GalerkinToolkit.jl](https://github.com/GalerkinToolkit/GalerkinToolkit.jl) and [Gridap.jl](https://github.com/gridap/Gridap.jl) use PartitionedArrays as the distributed linear algebra backend.
 
 ## <a name="opt"></a>Optimization
 
