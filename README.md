@@ -295,6 +295,24 @@ Also listed as a boundary-element code. Also see [TeaTalk.jl](https://github.com
 
 Active with updates for Julia 1.3.
 
+### [GalerkinToolkit.jl](https://github.com/GalerkinToolkit/GalerkinToolkit.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/GalerkinToolkit/GalerkinToolkit.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/GalerkinToolkit/GalerkinToolkit.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/GalerkinToolkit/GalerkinToolkit.jl)
+![GitHub stars](https://img.shields.io/github/stars/GalerkinToolkit/GalerkinToolkit.jl)
+![GitHub license](https://img.shields.io/github/license/GalerkinToolkit/GalerkinToolkit.jl)
+
+GalerkinToolkit provides a collection of tools to build computer codes to solve partial differential equations (PDEs). It provides the building blocks of finite element methods (FEMs) and targets different computing platforms, from laptops to modern GPU-based supercomputers.
+
+GalerkinToolkit is definitively not the first FEM software project out there, but it has some unique design features:
+
+- It combines the vision of frameworks like [FEniCS](https://fenicsproject.org/) and libraries like [Deal-ii](https://www.dealii.org/) in a single package. It provides a high-level API backed with automatic code generation, and also easy access to the low-level building blocks of FE codes.
+- It is designed to blend with the Julia package ecosystem. GalerkinToolkit can be easily combined with [`Gmsh.jl`](https://github.com/JuliaFEM/Gmsh.jl), [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl), [`StaticArrays.jl`](https://github.com/JuliaArrays/StaticArrays.jl), [`Tensors.jl`](https://github.com/Ferrite-FEM/Tensors.jl), [`LinearSolve.jl`](https://github.com/SciML/LinearSolve.jl), [`NonLinearSolve.jl`](https://github.com/SciML/NonlinearSolve.jl),  [`DifferentialEquations.jl`](https://github.com/SciML/DifferentialEquations.jl), [`Makie.jl`](https://github.com/MakieOrg/Makie.jl) and [`WriteVTK.jl`](https://github.com/JuliaVTK/WriteVTK.jl), and [`PartitionedArrays.jl`](https://github.com/PartitionedArrays/PartitionedArrays.jl).
+- It is based on a new form compiler, the GalerkinToolkit form compiler (GTFC) that leverages the meta-programming features of the Julia programming language. Unlike other form compilers, it is not based on the UFL domain-specific language, but on a subset of the Julia programming language.
+- GalerkinToolkit started as a complete re-write of the core of the [Gridap](https://github.com/gridap/Gridap.jl) project. The fundamental difference between GalerkinToolkit and Gridap is that GalerkinToolkit is not based on "lazily mapping arrays" like Gridap, but on a compiler of variational forms.
+
+
 ### [Gridap.jl](https://github.com/gridap/Gridap.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/gridap/Gridap.jl)
