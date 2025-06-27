@@ -648,6 +648,16 @@ Paper: Efficient and intuitive finite element and boundary element methods for n
 A Julia package for Deep Backwards Stochastic Differential Equation (Deep BSDE), Feynman-Kac and Multi-level Picard (MLP) methods to solve high-dimensional non-local nonlinear PDEs.
 **Reference**: Boussange, V., Becker, S., Jentzen, A., Kuckuck, B., Pellissier, L., Deep learning approximations for non-local nonlinear PDEs with Neumann boundary conditions. [arXiv](https://arxiv.org/abs/2205.03672) (2022)
 
+### [PeriLab.jl](https://github.com/PeriHub/PeriLab.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/PeriHub/PeriLab.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/PeriHub/PeriLab.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/PeriHub/PeriLab.jl)
+![GitHub stars](https://img.shields.io/github/stars/PeriHub/PeriLab.jl)
+![GitHub license](https://img.shields.io/github/license/PeriHub/PeriLab.jl)
+
+The Peridynamic Laboratory (PeriLab) is a powerful tool for solving peridynamic problems, providing a comprehensive framework for beginners to get started with using peridynamics.
+
 ### [Peridynamics.jl](https://github.com/kaipartmann/Peridynamics.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/kaipartmann/Peridynamics.jl)
