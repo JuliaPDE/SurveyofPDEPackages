@@ -414,6 +414,16 @@ For solving hyperbolic partial differential equations in higher dimensions, wher
 
 LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-to-end solution for forward modelling and image reconstruction in Diffuse Optical Tomography).
 
+### [LowLevelFEM.jl](https://github.com/perebalazs/LowLevelFEM.jl)
+
+![GitHub contributors](https://img.shields.io/github/contributors/perebalazs/LowLevelFEM.jl)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/perebalazs/LowLevelFEM.jl)
+![GitHub last commit](https://img.shields.io/github/last-commit/perebalazs/LowLevelFEM.jl)
+![GitHub stars](https://img.shields.io/github/stars/perebalazs/LowLevelFEM.jl)
+![GitHub license](https://img.shields.io/github/license/perebalazs/LowLevelFEM.jl)
+
+LowLevelFEM.jl is a low-level finite element framework written in Julia, focusing on explicit operator-based assembly and flexible multi-field formulations. It supports scalar, vector, and tensor fields and provides transparent access to the fundamental building blocks of FEM. The package is suitable for both research and educational purposes.
+
 ### [PtFEM.jl](https://github.com/PtFEM/PtFEM.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/PtFEM/PtFEM.jl)
