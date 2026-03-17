@@ -414,6 +414,7 @@ For solving hyperbolic partial differential equations in higher dimensions, wher
 
 LibTOAST.jl is a low-level interface to the TOAST++ library. (TOAST++ is an end-to-end solution for forward modelling and image reconstruction in Diffuse Optical Tomography).
 
+### [LowLevelFEM.jl](https://github.com/perebalazs/LowLevelFEM.jl)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/perebalazs/LowLevelFEM.jl)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/perebalazs/LowLevelFEM.jl)
