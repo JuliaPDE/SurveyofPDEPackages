@@ -522,6 +522,14 @@ installation and postprocessing procedures. Its features include:
 * Visualization of results with Julia-only tools ([Trixi2Img](https://github.com/trixi-framework/Trixi2Img.jl))
   or ParaView/VisIt ([Trixi2Vtk](https://github.com/trixi-framework/Trixi2Vtk.jl))
 
+### [MultiGridBarrier.jl](https://github.com/sloisel/MultiGridBarrier.jl)
+
+Solves convex variational problems — nonlinear PDEs and boundary-value problems, including
+nonsmooth ones such as the p-Laplacian (for all p ≥ 1), total variation, and obstacle problems —
+with the multigrid barrier method, which is quasi-optimal for some problem classes. Provides
+finite-element (1D/2D/3D, simplicial and tensor-product) and Chebyshev spectral discretizations,
+with optional CUDA GPU acceleration.
+
 
 ## <a name="fvm"></a>Finite  volume methods
 
